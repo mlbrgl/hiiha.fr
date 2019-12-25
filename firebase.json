@@ -5,6 +5,1016 @@
       "firebase.json",
       "**/.*",
       "src/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/2013/04/01/who-are-these-guys/",
+        "destination": "/2013/04/01/who-are-these-guys/index.html"
+      },
+      {
+        "source": "/2013/05/01/montage-du-surly-long-haul-trucker-lht/",
+        "destination": "/2013/05/01/montage-du-surly-long-haul-trucker-lht/index.html"
+      },
+      {
+        "source": "/2013/05/27/on-icelandic-tv-news/",
+        "destination": "/2013/05/27/on-icelandic-tv-news/index.html"
+      },
+      {
+        "source": "/2013/06/05/photos-islande-a-velo-2/",
+        "destination": "/2013/06/05/photos-islande-a-velo-2/index.html"
+      },
+      {
+        "source": "/2013/06/05/recit-tour-de-lislande-a-velo/",
+        "destination": "/2013/06/05/recit-tour-de-lislande-a-velo/index.html"
+      },
+      {
+        "source": "/2013/06/23/yes-we-canada/",
+        "destination": "/2013/06/23/yes-we-canada/index.html"
+      },
+      {
+        "source": "/2013/06/28/photos-canada-part-1/",
+        "destination": "/2013/06/28/photos-canada-part-1/index.html"
+      },
+      {
+        "source": "/2013/07/09/berg-lake-trail/",
+        "destination": "/2013/07/09/berg-lake-trail/index.html"
+      },
+      {
+        "source": "/2013/07/09/images-randonnees-dans-les-rocheuses-2/",
+        "destination": "/2013/07/09/images-randonnees-dans-les-rocheuses-2/index.html"
+      },
+      {
+        "source": "/2013/07/10/shit-happens-asi-es-la-vida-cest-la-vie/",
+        "destination": "/2013/07/10/shit-happens-asi-es-la-vida-cest-la-vie/index.html"
+      },
+      {
+        "source": "/2013/07/19/photos-canada-canoe-au-bowron-lake-provincial-park/",
+        "destination": "/2013/07/19/photos-canada-canoe-au-bowron-lake-provincial-park/index.html"
+      },
+      {
+        "source": "/2013/07/19/recit-canada-canoe-sur-le-circuit-du-lac-bowron/",
+        "destination": "/2013/07/19/recit-canada-canoe-sur-le-circuit-du-lac-bowron/index.html"
+      },
+      {
+        "source": "/2013/07/19/video-canada-canoe-sur-le-circuit-du-lac-bowron/",
+        "destination": "/2013/07/19/video-canada-canoe-sur-le-circuit-du-lac-bowron/index.html"
+      },
+      {
+        "source": "/2013/07/20/recit-canada-en-stop-de-calgary-a-prince-rupert/",
+        "destination": "/2013/07/20/recit-canada-en-stop-de-calgary-a-prince-rupert/index.html"
+      },
+      {
+        "source": "/2013/07/30/photos-alaska-randonnee-sur-le-chilkoot-trail/",
+        "destination": "/2013/07/30/photos-alaska-randonnee-sur-le-chilkoot-trail/index.html"
+      },
+      {
+        "source": "/2013/08/01/randonnee-sur-le-chilkoot-trail/",
+        "destination": "/2013/08/01/randonnee-sur-le-chilkoot-trail/index.html"
+      },
+      {
+        "source": "/2013/08/29/recit-klondike-trail-randonnee-sur-le-chilkoot-trail/",
+        "destination": "/2013/08/29/recit-klondike-trail-randonnee-sur-le-chilkoot-trail/index.html"
+      },
+      {
+        "source": "/2013/08/30/photos-canada-canoe-sur-le-yukon/",
+        "destination": "/2013/08/30/photos-canada-canoe-sur-le-yukon/index.html"
+      },
+      {
+        "source": "/2013/08/30/photos-canada-canoe-sur-le-yukon-carmacks-dawson-circle/",
+        "destination": "/2013/08/30/photos-canada-canoe-sur-le-yukon-carmacks-dawson-circle/index.html"
+      },
+      {
+        "source": "/2013/08/30/recit-ruee-vers-lor-partie-2-canoe-sur-le-yukon/",
+        "destination": "/2013/08/30/recit-ruee-vers-lor-partie-2-canoe-sur-le-yukon/index.html"
+      },
+      {
+        "source": "/2013/09/01/alaska-randonnee-dans-le-parc-du-denali/",
+        "destination": "/2013/09/01/alaska-randonnee-dans-le-parc-du-denali/index.html"
+      },
+      {
+        "source": "/2013/09/04/enigme-destination-mystere/",
+        "destination": "/2013/09/04/enigme-destination-mystere/index.html"
+      },
+      {
+        "source": "/2013/09/05/course-contre-le-soleil-a-hawai/",
+        "destination": "/2013/09/05/course-contre-le-soleil-a-hawai/index.html"
+      },
+      {
+        "source": "/2013/09/14/notre-premier-4000m-hawaii/",
+        "destination": "/2013/09/14/notre-premier-4000m-hawaii/index.html"
+      },
+      {
+        "source": "/2013/09/19/exploration-dun-tunnel-de-lave-hawaii/",
+        "destination": "/2013/09/19/exploration-dun-tunnel-de-lave-hawaii/index.html"
+      },
+      {
+        "source": "/2013/09/23/les-etats-unis-par-linterdit/",
+        "destination": "/2013/09/23/les-etats-unis-par-linterdit/index.html"
+      },
+      {
+        "source": "/2013/09/24/hawaii-entre-mer-et-volcans/",
+        "destination": "/2013/09/24/hawaii-entre-mer-et-volcans/index.html"
+      },
+      {
+        "source": "/2013/10/01/california-dreamin/",
+        "destination": "/2013/10/01/california-dreamin/index.html"
+      },
+      {
+        "source": "/2013/10/12/randonnee-dans-le-canyon-de-colca/",
+        "destination": "/2013/10/12/randonnee-dans-le-canyon-de-colca/index.html"
+      },
+      {
+        "source": "/2013/10/17/a-la-decouverte-du-machu-picchu/",
+        "destination": "/2013/10/17/a-la-decouverte-du-machu-picchu/index.html"
+      },
+      {
+        "source": "/2013/10/26/perou-incas-coca-titicaca/",
+        "destination": "/2013/10/26/perou-incas-coca-titicaca/index.html"
+      },
+      {
+        "source": "/2013/10/30/en-velo-de-puno-perou-a-la-paz-bolivie/",
+        "destination": "/2013/10/30/en-velo-de-puno-perou-a-la-paz-bolivie/index.html"
+      },
+      {
+        "source": "/2013/11/02/ascension-du-huayna-potosi-6088-m/",
+        "destination": "/2013/11/02/ascension-du-huayna-potosi-6088-m/index.html"
+      },
+      {
+        "source": "/2013/11/20/a-velo-sur-laltiplano/",
+        "destination": "/2013/11/20/a-velo-sur-laltiplano/index.html"
+      },
+      {
+        "source": "/2013/11/24/traversee-du-salar-de-uyuni-et-de-coipasa-en-velo/",
+        "destination": "/2013/11/24/traversee-du-salar-de-uyuni-et-de-coipasa-en-velo/index.html"
+      },
+      {
+        "source": "/2013/11/25/video-a-velo-sur-laltiplano/",
+        "destination": "/2013/11/25/video-a-velo-sur-laltiplano/index.html"
+      },
+      {
+        "source": "/2013/12/25/cadeau-de-noel-ouvrez-vite/",
+        "destination": "/2013/12/25/cadeau-de-noel-ouvrez-vite/index.html"
+      },
+      {
+        "source": "/2013/12/25/operation-licancabur-solo-a-5920-m/",
+        "destination": "/2013/12/25/operation-licancabur-solo-a-5920-m/index.html"
+      },
+      {
+        "source": "/2013/12/25/parapente-au-chili/",
+        "destination": "/2013/12/25/parapente-au-chili/index.html"
+      },
+      {
+        "source": "/2013/12/28/sairecabur-projete-a-5971-metres/",
+        "destination": "/2013/12/28/sairecabur-projete-a-5971-metres/index.html"
+      },
+      {
+        "source": "/2013/12/30/ils-parlent-de-nous/",
+        "destination": "/2013/12/30/ils-parlent-de-nous/index.html"
+      },
+      {
+        "source": "/2014/01/15/lecume-des-cimes-bande-annonce/",
+        "destination": "/2014/01/15/lecume-des-cimes-bande-annonce/index.html"
+      },
+      {
+        "source": "/2014/01/18/tintin-au-dakar/",
+        "destination": "/2014/01/18/tintin-au-dakar/index.html"
+      },
+      {
+        "source": "/2014/01/21/deambulations-urbaines-santiago-valparaiso/",
+        "destination": "/2014/01/21/deambulations-urbaines-santiago-valparaiso/index.html"
+      },
+      {
+        "source": "/2014/02/04/de-pucon-a-puerto-varas-en-velo/",
+        "destination": "/2014/02/04/de-pucon-a-puerto-varas-en-velo/index.html"
+      },
+      {
+        "source": "/2014/02/06/carretera-austral-bande-annonce/",
+        "destination": "/2014/02/06/carretera-austral-bande-annonce/index.html"
+      },
+      {
+        "source": "/2014/02/18/kayak-de-mer-dans-les-fjords-de-patagonie/",
+        "destination": "/2014/02/18/kayak-de-mer-dans-les-fjords-de-patagonie/index.html"
+      },
+      {
+        "source": "/2014/02/19/lecume-des-cimes-ojos-del-salado-6893m/",
+        "destination": "/2014/02/19/lecume-des-cimes-ojos-del-salado-6893m/index.html"
+      },
+      {
+        "source": "/2014/02/19/lecume-des-cimes-sea-to-summit-6893-m/",
+        "destination": "/2014/02/19/lecume-des-cimes-sea-to-summit-6893-m/index.html"
+      },
+      {
+        "source": "/2014/03/01/carretera-austral-1ere-partie/",
+        "destination": "/2014/03/01/carretera-austral-1ere-partie/index.html"
+      },
+      {
+        "source": "/2014/03/20/la-carretera-austral-en-velo/",
+        "destination": "/2014/03/20/la-carretera-austral-en-velo/index.html"
+      },
+      {
+        "source": "/2014/03/22/parcours-du-combattant/",
+        "destination": "/2014/03/22/parcours-du-combattant/index.html"
+      },
+      {
+        "source": "/2014/03/24/fitz-roy-et-cerro-torre-stupefiantes-montagnes/",
+        "destination": "/2014/03/24/fitz-roy-et-cerro-torre-stupefiantes-montagnes/index.html"
+      },
+      {
+        "source": "/2014/03/26/en-route-vers-le-perito-moreno/",
+        "destination": "/2014/03/26/en-route-vers-le-perito-moreno/index.html"
+      },
+      {
+        "source": "/2014/04/02/arriver-a-ushuaia/",
+        "destination": "/2014/04/02/arriver-a-ushuaia/index.html"
+      },
+      {
+        "source": "/2014/04/10/ushuaia-fin-del-mundo/",
+        "destination": "/2014/04/10/ushuaia-fin-del-mundo/index.html"
+      },
+      {
+        "source": "/2014/05/06/escapade-en-argentine/",
+        "destination": "/2014/05/06/escapade-en-argentine/index.html"
+      },
+      {
+        "source": "/2014/08/26/video-sea-to-summit-ojos-del-salado-6893-m/",
+        "destination": "/2014/08/26/video-sea-to-summit-ojos-del-salado-6893-m/index.html"
+      },
+      {
+        "source": "/2014/09/09/hommage-a-benoit/",
+        "destination": "/2014/09/09/hommage-a-benoit/index.html"
+      },
+      {
+        "source": "/category/activite/alpinisme/",
+        "destination": "/category/activite/alpinisme/index.html"
+      },
+      {
+        "source": "/category/activite/canoe/",
+        "destination": "/category/activite/canoe/index.html"
+      },
+      {
+        "source": "/category/activite/",
+        "destination": "/category/activite/index.html"
+      },
+      {
+        "source": "/category/activite/kayak-de-mer/",
+        "destination": "/category/activite/kayak-de-mer/index.html"
+      },
+      {
+        "source": "/category/activite/page/2/",
+        "destination": "/category/activite/page/2/index.html"
+      },
+      {
+        "source": "/category/activite/page/3/",
+        "destination": "/category/activite/page/3/index.html"
+      },
+      {
+        "source": "/category/activite/parapente-activite/",
+        "destination": "/category/activite/parapente-activite/index.html"
+      },
+      {
+        "source": "/category/activite/randonnee/",
+        "destination": "/category/activite/randonnee/index.html"
+      },
+      {
+        "source": "/category/activite/velo/",
+        "destination": "/category/activite/velo/index.html"
+      },
+      {
+        "source": "/category/activite/velo/page/2/",
+        "destination": "/category/activite/velo/page/2/index.html"
+      },
+      {
+        "source": "/category/localisation/",
+        "destination": "/category/localisation/index.html"
+      },
+      {
+        "source": "/category/media/article/",
+        "destination": "/category/media/article/index.html"
+      },
+      {
+        "source": "/category/media/article/page/2/",
+        "destination": "/category/media/article/page/2/index.html"
+      },
+      {
+        "source": "/category/media/images/",
+        "destination": "/category/media/images/index.html"
+      },
+      {
+        "source": "/category/media/images/page/2/",
+        "destination": "/category/media/images/page/2/index.html"
+      },
+      {
+        "source": "/category/media/",
+        "destination": "/category/media/index.html"
+      },
+      {
+        "source": "/category/media/page/2/",
+        "destination": "/category/media/page/2/index.html"
+      },
+      {
+        "source": "/category/media/page/3/",
+        "destination": "/category/media/page/3/index.html"
+      },
+      {
+        "source": "/category/media/video/",
+        "destination": "/category/media/video/index.html"
+      },
+      {
+        "source": "/category/non-classe/",
+        "destination": "/category/non-classe/index.html"
+      },
+      {
+        "source": "/category/pays/argentine/",
+        "destination": "/category/pays/argentine/index.html"
+      },
+      {
+        "source": "/category/pays/bolivie/",
+        "destination": "/category/pays/bolivie/index.html"
+      },
+      {
+        "source": "/category/pays/canada/",
+        "destination": "/category/pays/canada/index.html"
+      },
+      {
+        "source": "/category/pays/chili/",
+        "destination": "/category/pays/chili/index.html"
+      },
+      {
+        "source": "/category/pays/",
+        "destination": "/category/pays/index.html"
+      },
+      {
+        "source": "/category/pays/islande/",
+        "destination": "/category/pays/islande/index.html"
+      },
+      {
+        "source": "/category/pays/page/2/",
+        "destination": "/category/pays/page/2/index.html"
+      },
+      {
+        "source": "/category/pays/page/3/",
+        "destination": "/category/pays/page/3/index.html"
+      },
+      {
+        "source": "/category/pays/perou/",
+        "destination": "/category/pays/perou/index.html"
+      },
+      {
+        "source": "/category/pays/usa/",
+        "destination": "/category/pays/usa/index.html"
+      },
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/itineraire/en-bref/",
+        "destination": "/itineraire/en-bref/index.html"
+      },
+      {
+        "source": "/itineraire/",
+        "destination": "/itineraire/index.html"
+      },
+      {
+        "source": "/itineraire/itineraire/",
+        "destination": "/itineraire/itineraire/index.html"
+      },
+      {
+        "source": "/itineraire/itineraire-canada/",
+        "destination": "/itineraire/itineraire-canada/index.html"
+      },
+      {
+        "source": "/page/2/",
+        "destination": "/page/2/index.html"
+      },
+      {
+        "source": "/page/3/",
+        "destination": "/page/3/index.html"
+      },
+      {
+        "source": "/presentation-2/",
+        "destination": "/presentation-2/index.html"
+      },
+      {
+        "source": "/tag/2014/",
+        "destination": "/tag/2014/index.html"
+      },
+      {
+        "source": "/tag/6088-m/",
+        "destination": "/tag/6088-m/index.html"
+      },
+      {
+        "source": "/tag/alaska/",
+        "destination": "/tag/alaska/index.html"
+      },
+      {
+        "source": "/tag/alpinisme/",
+        "destination": "/tag/alpinisme/index.html"
+      },
+      {
+        "source": "/tag/altos-hospicio/",
+        "destination": "/tag/altos-hospicio/index.html"
+      },
+      {
+        "source": "/tag/arequipa/",
+        "destination": "/tag/arequipa/index.html"
+      },
+      {
+        "source": "/tag/ascension/",
+        "destination": "/tag/ascension/index.html"
+      },
+      {
+        "source": "/tag/auto-stop/",
+        "destination": "/tag/auto-stop/index.html"
+      },
+      {
+        "source": "/tag/backcountry/",
+        "destination": "/tag/backcountry/index.html"
+      },
+      {
+        "source": "/tag/banff/",
+        "destination": "/tag/banff/index.html"
+      },
+      {
+        "source": "/tag/berg-lake/",
+        "destination": "/tag/berg-lake/index.html"
+      },
+      {
+        "source": "/tag/big-island/",
+        "destination": "/tag/big-island/index.html"
+      },
+      {
+        "source": "/tag/bolivie/",
+        "destination": "/tag/bolivie/index.html"
+      },
+      {
+        "source": "/tag/bowron/",
+        "destination": "/tag/bowron/index.html"
+      },
+      {
+        "source": "/tag/cabalgata/",
+        "destination": "/tag/cabalgata/index.html"
+      },
+      {
+        "source": "/tag/cabanaconde/",
+        "destination": "/tag/cabanaconde/index.html"
+      },
+      {
+        "source": "/tag/calgary/",
+        "destination": "/tag/calgary/index.html"
+      },
+      {
+        "source": "/tag/californie/",
+        "destination": "/tag/californie/index.html"
+      },
+      {
+        "source": "/tag/canada/",
+        "destination": "/tag/canada/index.html"
+      },
+      {
+        "source": "/tag/canmore/",
+        "destination": "/tag/canmore/index.html"
+      },
+      {
+        "source": "/tag/canoe/",
+        "destination": "/tag/canoe/index.html"
+      },
+      {
+        "source": "/tag/canyon/",
+        "destination": "/tag/canyon/index.html"
+      },
+      {
+        "source": "/tag/carmacks/",
+        "destination": "/tag/carmacks/index.html"
+      },
+      {
+        "source": "/tag/carmarcks/",
+        "destination": "/tag/carmarcks/index.html"
+      },
+      {
+        "source": "/tag/carretera-austral/",
+        "destination": "/tag/carretera-austral/index.html"
+      },
+      {
+        "source": "/tag/cerro-torre/",
+        "destination": "/tag/cerro-torre/index.html"
+      },
+      {
+        "source": "/tag/chili/",
+        "destination": "/tag/chili/index.html"
+      },
+      {
+        "source": "/tag/chilkoot-trail/",
+        "destination": "/tag/chilkoot-trail/index.html"
+      },
+      {
+        "source": "/tag/chivay/",
+        "destination": "/tag/chivay/index.html"
+      },
+      {
+        "source": "/tag/circle/",
+        "destination": "/tag/circle/index.html"
+      },
+      {
+        "source": "/tag/cohaique/",
+        "destination": "/tag/cohaique/index.html"
+      },
+      {
+        "source": "/tag/colca/",
+        "destination": "/tag/colca/index.html"
+      },
+      {
+        "source": "/tag/copacabana/",
+        "destination": "/tag/copacabana/index.html"
+      },
+      {
+        "source": "/tag/copiapo/",
+        "destination": "/tag/copiapo/index.html"
+      },
+      {
+        "source": "/tag/coyhaique/",
+        "destination": "/tag/coyhaique/index.html"
+      },
+      {
+        "source": "/tag/cuzco/",
+        "destination": "/tag/cuzco/index.html"
+      },
+      {
+        "source": "/tag/cyclotourisme/",
+        "destination": "/tag/cyclotourisme/index.html"
+      },
+      {
+        "source": "/tag/dakar/",
+        "destination": "/tag/dakar/index.html"
+      },
+      {
+        "source": "/tag/dawson/",
+        "destination": "/tag/dawson/index.html"
+      },
+      {
+        "source": "/tag/denali/",
+        "destination": "/tag/denali/index.html"
+      },
+      {
+        "source": "/tag/disney/",
+        "destination": "/tag/disney/index.html"
+      },
+      {
+        "source": "/tag/eagle/",
+        "destination": "/tag/eagle/index.html"
+      },
+      {
+        "source": "/tag/eduardo-avaroa/",
+        "destination": "/tag/eduardo-avaroa/index.html"
+      },
+      {
+        "source": "/tag/el-calafate/",
+        "destination": "/tag/el-calafate/index.html"
+      },
+      {
+        "source": "/tag/el-chalten/",
+        "destination": "/tag/el-chalten/index.html"
+      },
+      {
+        "source": "/tag/etape-12/",
+        "destination": "/tag/etape-12/index.html"
+      },
+      {
+        "source": "/tag/ferry/",
+        "destination": "/tag/ferry/index.html"
+      },
+      {
+        "source": "/tag/fitz-roy/",
+        "destination": "/tag/fitz-roy/index.html"
+      },
+      {
+        "source": "/tag/fleuve/",
+        "destination": "/tag/fleuve/index.html"
+      },
+      {
+        "source": "/tag/flight-park/",
+        "destination": "/tag/flight-park/index.html"
+      },
+      {
+        "source": "/tag/frontiere/",
+        "destination": "/tag/frontiere/index.html"
+      },
+      {
+        "source": "/tag/frontiere-chili-argentine/",
+        "destination": "/tag/frontiere-chili-argentine/index.html"
+      },
+      {
+        "source": "/tag/georges-rousse/",
+        "destination": "/tag/georges-rousse/index.html"
+      },
+      {
+        "source": "/tag/glacier/",
+        "destination": "/tag/glacier/index.html"
+      },
+      {
+        "source": "/tag/gpx/",
+        "destination": "/tag/gpx/index.html"
+      },
+      {
+        "source": "/tag/grotte/",
+        "destination": "/tag/grotte/index.html"
+      },
+      {
+        "source": "/tag/hawai/",
+        "destination": "/tag/hawai/index.html"
+      },
+      {
+        "source": "/tag/hawaii/",
+        "destination": "/tag/hawaii/index.html"
+      },
+      {
+        "source": "/tag/honolulu/",
+        "destination": "/tag/honolulu/index.html"
+      },
+      {
+        "source": "/tag/hornopiren/",
+        "destination": "/tag/hornopiren/index.html"
+      },
+      {
+        "source": "/tag/hornorpiren/",
+        "destination": "/tag/hornorpiren/index.html"
+      },
+      {
+        "source": "/tag/huayna-potosi/",
+        "destination": "/tag/huayna-potosi/index.html"
+      },
+      {
+        "source": "/tag/inca-jungle-trail/",
+        "destination": "/tag/inca-jungle-trail/index.html"
+      },
+      {
+        "source": "/tag/inside-passage/",
+        "destination": "/tag/inside-passage/index.html"
+      },
+      {
+        "source": "/tag/iquique/",
+        "destination": "/tag/iquique/index.html"
+      },
+      {
+        "source": "/tag/islande/",
+        "destination": "/tag/islande/index.html"
+      },
+      {
+        "source": "/tag/jasper/",
+        "destination": "/tag/jasper/index.html"
+      },
+      {
+        "source": "/tag/joyeux-noel-2013/",
+        "destination": "/tag/joyeux-noel-2013/index.html"
+      },
+      {
+        "source": "/tag/kayak-de-mer-2/",
+        "destination": "/tag/kayak-de-mer-2/index.html"
+      },
+      {
+        "source": "/tag/kona/",
+        "destination": "/tag/kona/index.html"
+      },
+      {
+        "source": "/tag/la-paz/",
+        "destination": "/tag/la-paz/index.html"
+      },
+      {
+        "source": "/tag/lac/",
+        "destination": "/tag/lac/index.html"
+      },
+      {
+        "source": "/tag/lac-bennett/",
+        "destination": "/tag/lac-bennett/index.html"
+      },
+      {
+        "source": "/tag/lago-de-los-tres/",
+        "destination": "/tag/lago-de-los-tres/index.html"
+      },
+      {
+        "source": "/tag/lago-torre/",
+        "destination": "/tag/lago-torre/index.html"
+      },
+      {
+        "source": "/tag/laguna-verde/",
+        "destination": "/tag/laguna-verde/index.html"
+      },
+      {
+        "source": "/tag/lake/",
+        "destination": "/tag/lake/index.html"
+      },
+      {
+        "source": "/tag/lava-tube/",
+        "destination": "/tag/lava-tube/index.html"
+      },
+      {
+        "source": "/tag/leptepu/",
+        "destination": "/tag/leptepu/index.html"
+      },
+      {
+        "source": "/tag/lht/",
+        "destination": "/tag/lht/index.html"
+      },
+      {
+        "source": "/tag/licancabur/",
+        "destination": "/tag/licancabur/index.html"
+      },
+      {
+        "source": "/tag/lima/",
+        "destination": "/tag/lima/index.html"
+      },
+      {
+        "source": "/tag/long-haul-trucker/",
+        "destination": "/tag/long-haul-trucker/index.html"
+      },
+      {
+        "source": "/tag/los-angeles/",
+        "destination": "/tag/los-angeles/index.html"
+      },
+      {
+        "source": "/tag/loups-de-mer/",
+        "destination": "/tag/loups-de-mer/index.html"
+      },
+      {
+        "source": "/tag/machu-picchu/",
+        "destination": "/tag/machu-picchu/index.html"
+      },
+      {
+        "source": "/tag/mackenzie/",
+        "destination": "/tag/mackenzie/index.html"
+      },
+      {
+        "source": "/tag/mai/",
+        "destination": "/tag/mai/index.html"
+      },
+      {
+        "source": "/tag/mauna-loa/",
+        "destination": "/tag/mauna-loa/index.html"
+      },
+      {
+        "source": "/tag/mendoza/",
+        "destination": "/tag/mendoza/index.html"
+      },
+      {
+        "source": "/tag/montage/",
+        "destination": "/tag/montage/index.html"
+      },
+      {
+        "source": "/tag/montana/",
+        "destination": "/tag/montana/index.html"
+      },
+      {
+        "source": "/tag/mount-eielson/",
+        "destination": "/tag/mount-eielson/index.html"
+      },
+      {
+        "source": "/tag/mount-robson/",
+        "destination": "/tag/mount-robson/index.html"
+      },
+      {
+        "source": "/tag/oahu/",
+        "destination": "/tag/oahu/index.html"
+      },
+      {
+        "source": "/tag/ojos-del-salado/",
+        "destination": "/tag/ojos-del-salado/index.html"
+      },
+      {
+        "source": "/tag/palo-buque/",
+        "destination": "/tag/palo-buque/index.html"
+      },
+      {
+        "source": "/tag/parapente/",
+        "destination": "/tag/parapente/index.html"
+      },
+      {
+        "source": "/tag/perito-moreno/",
+        "destination": "/tag/perito-moreno/index.html"
+      },
+      {
+        "source": "/tag/perou/",
+        "destination": "/tag/perou/index.html"
+      },
+      {
+        "source": "/tag/photos/",
+        "destination": "/tag/photos/index.html"
+      },
+      {
+        "source": "/tag/pico-austria-5350m/",
+        "destination": "/tag/pico-austria-5350m/index.html"
+      },
+      {
+        "source": "/tag/pouce/",
+        "destination": "/tag/pouce/index.html"
+      },
+      {
+        "source": "/tag/pucon/",
+        "destination": "/tag/pucon/index.html"
+      },
+      {
+        "source": "/tag/puerto-montt/",
+        "destination": "/tag/puerto-montt/index.html"
+      },
+      {
+        "source": "/tag/puerto-varas/",
+        "destination": "/tag/puerto-varas/index.html"
+      },
+      {
+        "source": "/tag/puno/",
+        "destination": "/tag/puno/index.html"
+      },
+      {
+        "source": "/tag/rafting/",
+        "destination": "/tag/rafting/index.html"
+      },
+      {
+        "source": "/tag/randonnee/",
+        "destination": "/tag/randonnee/index.html"
+      },
+      {
+        "source": "/tag/rio-porcelana/",
+        "destination": "/tag/rio-porcelana/index.html"
+      },
+      {
+        "source": "/tag/river/",
+        "destination": "/tag/river/index.html"
+      },
+      {
+        "source": "/tag/road-trip/",
+        "destination": "/tag/road-trip/index.html"
+      },
+      {
+        "source": "/tag/rocheuses/",
+        "destination": "/tag/rocheuses/index.html"
+      },
+      {
+        "source": "/tag/route-des-7-lacs/",
+        "destination": "/tag/route-des-7-lacs/index.html"
+      },
+      {
+        "source": "/tag/route-des-vins/",
+        "destination": "/tag/route-des-vins/index.html"
+      },
+      {
+        "source": "/tag/sairecabur/",
+        "destination": "/tag/sairecabur/index.html"
+      },
+      {
+        "source": "/tag/sajama/",
+        "destination": "/tag/sajama/index.html"
+      },
+      {
+        "source": "/tag/salar-de-coipasa/",
+        "destination": "/tag/salar-de-coipasa/index.html"
+      },
+      {
+        "source": "/tag/salar-de-uyuni/",
+        "destination": "/tag/salar-de-uyuni/index.html"
+      },
+      {
+        "source": "/tag/salta/",
+        "destination": "/tag/salta/index.html"
+      },
+      {
+        "source": "/tag/san-francisco/",
+        "destination": "/tag/san-francisco/index.html"
+      },
+      {
+        "source": "/tag/san-pedro-de-atacama/",
+        "destination": "/tag/san-pedro-de-atacama/index.html"
+      },
+      {
+        "source": "/tag/santiago/",
+        "destination": "/tag/santiago/index.html"
+      },
+      {
+        "source": "/tag/sea-to-summit/",
+        "destination": "/tag/sea-to-summit/index.html"
+      },
+      {
+        "source": "/tag/skagway/",
+        "destination": "/tag/skagway/index.html"
+      },
+      {
+        "source": "/tag/skyline/",
+        "destination": "/tag/skyline/index.html"
+      },
+      {
+        "source": "/tag/solidaire/",
+        "destination": "/tag/solidaire/index.html"
+      },
+      {
+        "source": "/tag/sommet/",
+        "destination": "/tag/sommet/index.html"
+      },
+      {
+        "source": "/tag/stop/",
+        "destination": "/tag/stop/index.html"
+      },
+      {
+        "source": "/tag/surire/",
+        "destination": "/tag/surire/index.html"
+      },
+      {
+        "source": "/tag/surly/",
+        "destination": "/tag/surly/index.html"
+      },
+      {
+        "source": "/tag/termas-geometricas/",
+        "destination": "/tag/termas-geometricas/index.html"
+      },
+      {
+        "source": "/tag/thermes-de-cahuelmo/",
+        "destination": "/tag/thermes-de-cahuelmo/index.html"
+      },
+      {
+        "source": "/tag/thermes-de-llancahue/",
+        "destination": "/tag/thermes-de-llancahue/index.html"
+      },
+      {
+        "source": "/tag/tonquin/",
+        "destination": "/tag/tonquin/index.html"
+      },
+      {
+        "source": "/tag/tour/",
+        "destination": "/tag/tour/index.html"
+      },
+      {
+        "source": "/tag/tour-du-monde/",
+        "destination": "/tag/tour-du-monde/index.html"
+      },
+      {
+        "source": "/tag/trail/",
+        "destination": "/tag/trail/index.html"
+      },
+      {
+        "source": "/tag/train/",
+        "destination": "/tag/train/index.html"
+      },
+      {
+        "source": "/tag/tunnel-de-lave/",
+        "destination": "/tag/tunnel-de-lave/index.html"
+      },
+      {
+        "source": "/tag/uhsuaia/",
+        "destination": "/tag/uhsuaia/index.html"
+      },
+      {
+        "source": "/tag/usa-2/",
+        "destination": "/tag/usa-2/index.html"
+      },
+      {
+        "source": "/tag/ushuaia/",
+        "destination": "/tag/ushuaia/index.html"
+      },
+      {
+        "source": "/tag/valparaiso/",
+        "destination": "/tag/valparaiso/index.html"
+      },
+      {
+        "source": "/tag/velo/",
+        "destination": "/tag/velo/index.html"
+      },
+      {
+        "source": "/tag/vent/",
+        "destination": "/tag/vent/index.html"
+      },
+      {
+        "source": "/tag/vicunas/",
+        "destination": "/tag/vicunas/index.html"
+      },
+      {
+        "source": "/tag/video/",
+        "destination": "/tag/video/index.html"
+      },
+      {
+        "source": "/tag/villa-ohiggins/",
+        "destination": "/tag/villa-ohiggins/index.html"
+      },
+      {
+        "source": "/tag/voiture/",
+        "destination": "/tag/voiture/index.html"
+      },
+      {
+        "source": "/tag/volcan/",
+        "destination": "/tag/volcan/index.html"
+      },
+      {
+        "source": "/tag/white-pass/",
+        "destination": "/tag/white-pass/index.html"
+      },
+      {
+        "source": "/tag/whitehorse/",
+        "destination": "/tag/whitehorse/index.html"
+      },
+      {
+        "source": "/tag/yukon/",
+        "destination": "/tag/yukon/index.html"
+      },
+      {
+        "source": "/tag/yukon-river/",
+        "destination": "/tag/yukon-river/index.html"
+      }
     ]
   }
 }
