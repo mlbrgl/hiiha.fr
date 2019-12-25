@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "hiiha.fr",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "src/**"
+    ]
+  }
+}
