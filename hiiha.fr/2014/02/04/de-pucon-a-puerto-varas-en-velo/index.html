@@ -11,6 +11,7 @@
 <link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
@@ -24,6 +25,9 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
+<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
 <link rel='prev' title='Déambulations urbaines : Santiago &amp; Valparaiso' href='../../../01/21/deambulations-urbaines-santiago-valparaiso/' />
 <link rel='next' title='Carretera Austral &#8211; Bande annonce' href='../../06/carretera-austral-bande-annonce/' />
 <meta name="generator" content="WordPress 4.0.29" />
@@ -53,6 +57,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 			});
 		}
 				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+		displayGpxTrack('Chili - Pucón à Puertos Varas en vélo - Parcours.gpx');
 	});
 	jQuery(window).load(function() {
 			});
@@ -408,7 +413,7 @@ Dénivelé positif : 5200 m</pre>
 
 <p>&nbsp;</p>
 <p><strong>Trace GPS:</strong></p>
-<p>[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;HYBRID&nbsp;&raquo; gpx=&nbsp;&raquo;https://hiiha.fr/wp-content/uploads/Chili &#8211; Pucón à Puertos Varas en vélo &#8211; Parcours.gpx&nbsp;&raquo;]</p>
+<div class="map" id="map"></div>
 							<div class="clear"></div>
 						</div><!-- .entry-content -->
 						<footer class="entry-utility">

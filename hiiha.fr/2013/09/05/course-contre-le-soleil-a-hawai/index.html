@@ -11,6 +11,7 @@
 <link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
@@ -24,6 +25,9 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
+<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
 <link rel='prev' title='Destination mystère' href='../../04/enigme-destination-mystere/' />
 <link rel='next' title='Hawaii : Notre premier 4000m' href='../../14/notre-premier-4000m-hawaii/' />
 <meta name="generator" content="WordPress 4.0.29" />
@@ -53,6 +57,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 			});
 		}
 				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+		displayGpxTrack('Oahu à vélo Benoit.gpx');
 	});
 	jQuery(window).load(function() {
 			});
@@ -154,7 +159,7 @@ Distance : 180 km</pre>
 <div id="attachment_966" style="width: 310px" class="wp-caption alignleft"><a href="../../../../wp-content/uploads/2013/09/DSC05831.jpg" data-rel="lightbox-gallery-lIjIPgcD" data-rl_title="Sortie d&rsquo;Honolulu &#8211; Oahu, Hawaï" data-rl_caption="" title="Sortie d&rsquo;Honolulu &#8211; Oahu, Hawaï"><img class="size-medium wp-image-966" alt="Sortie d'Honolulu - Oahu, Hawaï" src="../../../../wp-content/uploads/2013/09/DSC05831-300x200.jpg" width="300" height="200" /></a><p class="wp-caption-text">Sortie d&rsquo;Honolulu &#8211; Oahu, Hawaï</p></div>
 <p>Après avoir observé les surfeurs s&rsquo;attaquer aux vagues de la côte Nord, j&rsquo;entamai mon retour vers Honolulu. A l&rsquo;inverse d&rsquo;un lézard, je sentais ma cadence s’accélérer à mesure que la température diminuait et j&rsquo;entamai une course contre le soleil pour rentrer à bon port avant la nuit.</p>
 <p style="text-align: justify;">Les entrées de grandes villes sont toujours délicates à négocier, et celle ci ne fit pas exception : échangeurs d&rsquo;autoroutes à quatre voies, clochards vivant sous les ponts, squats de personnes manifestement droguées &#8230; Hawaii se démaquillait en cette fin de journée avant d&rsquo;aller se coucher, et je fis de même sans tarder.</p>
-<p>[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;SATELLITE&nbsp;&raquo; gpx=&nbsp;&raquo;https://hiiha.fr/wp-content/uploads/Oahu à vélo Benoit.gpx&nbsp;&raquo;]</p>
+<div class="map" id="map"></div>
 							<div class="clear"></div>
 						</div><!-- .entry-content -->
 						<footer class="entry-utility">

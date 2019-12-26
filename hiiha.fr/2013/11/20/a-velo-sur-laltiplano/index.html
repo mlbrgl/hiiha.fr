@@ -11,6 +11,7 @@
 <link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
@@ -24,6 +25,9 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
+<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
 <link rel='prev' title='Ascension du Huayna Potosi &#8211; 6088 m' href='../../02/ascension-du-huayna-potosi-6088-m/' />
 <link rel='next' title='Traversée du Salar de Uyuni et de Coipasa en vélo' href='../../24/traversee-du-salar-de-uyuni-et-de-coipasa-en-velo/' />
 <meta name="generator" content="WordPress 4.0.29" />
@@ -53,6 +57,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 			});
 		}
 				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+		displayGpxTrack('Bolivie - La Paz - Sajama - Uyuni en vélo - parcours.gpx');
 	});
 	jQuery(window).load(function() {
 			});
@@ -165,7 +170,7 @@ Altitude : Entre 3150 m à 4700 m</pre>
 <p style="text-align: justify;">C&rsquo;est au terme du 10ème jour d&rsquo;effort que nous rejoignons finalement la civilisation à Enquelga. Les quelques mètres de route pavé dans le centre de la ville sont un bonheur après s&rsquo;être enlisé sur des sentiers de sable, et s&rsquo;être usé les cervicales sur des chemins en tôle ondulée. Le lendemain, nous filons euphoriques sur l&rsquo;asphalte qui nous mène à la frontière Bolivienne, si bien que nous la passons clandestinement sans faire attention.</p>
 <p style="text-align: justify;">Après avoir dévalisé toutes les échoppes qui vendent quelque chose susceptible de s&rsquo;ingérer sous forme liquide ou solide, nous partons finalement en direction des étendues désertiques du <em>Salar de Coïpasa</em>, qui doivent nous mener au mythique <em>Salar de Uyuni</em>.</p>
 <p>Trace GPS:<br />
-[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;HYBRID&nbsp;&raquo; gpx=&nbsp;&raquo;https://hiiha.fr/wp-content/uploads/Bolivie &#8211; La Paz &#8211; Sajama &#8211; Uyuni en vélo &#8211; parcours.gpx&nbsp;&raquo;]</p>
+<div id="map" class="map"></div>
 
 		<div id='gallery-1' class='gallery galleryid-1428 gallery-columns-3 gallery-size-thumbnail gallery-link-attachment'><figure class='gallery-item'>
 			<span class='gallery-icon'>

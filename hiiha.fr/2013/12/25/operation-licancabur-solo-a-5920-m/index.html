@@ -11,6 +11,7 @@
 <link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
@@ -24,6 +25,9 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
+<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
 <link rel='prev' title='Parapente au Chili' href='../parapente-au-chili/' />
 <link rel='next' title='Sairecabur : projeté à 5971 mètres' href='../../28/sairecabur-projete-a-5971-metres/' />
 <meta name="generator" content="WordPress 4.0.29" />
@@ -53,6 +57,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 			});
 		}
 				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+		displayGpxTrack('Track_LICANCABUR BENOIT.gpx');
 	});
 	jQuery(window).load(function() {
 			});
@@ -161,8 +166,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <div id="attachment_1471" style="width: 710px" class="wp-caption alignleft"><a href="../../../../wp-content/uploads/2013/12/DSC00076.jpg" data-rel="lightbox-gallery-GKDLr0rQ" data-rl_title="Dans les nuages &#8211; Sommet du Licancabur" data-rl_caption="" title="Dans les nuages &#8211; Sommet du Licancabur"><img class="size-large wp-image-1471" alt="Dans les nuages - Sommet du Licancabur" src="../../../../wp-content/uploads/2013/12/DSC00076-1024x682.jpg" width="700" height="466" /></a><p class="wp-caption-text">Dans les nuages &#8211; Sommet du Licancabur</p></div>
 <p style="text-align: justify;">Le 24 Décembre au matin, j&rsquo;entamai la formidable descente vers San Pedro de Atacama tout au long de laquelle je fus en infraction avec les panneaux demandant de ne pas dépasser les 60 km/h.</p>
 <p style="text-align: justify;">L&rsquo;opération Licancabur fut une réussite. Ce n&rsquo;était cependant qu&rsquo;un échauffement &#8230;</p>
-<p>[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;HYBRID&nbsp;&raquo; gpx=&nbsp;&raquo;https://hiiha.fr/wp-content/uploads/Track_LICANCABUR BENOIT.gpx&nbsp;&raquo;]</p>
-
+<div class="map" id="map"></div>
 		<div id='gallery-1' class='gallery galleryid-1480 gallery-columns-3 gallery-size-thumbnail gallery-link-file'><figure class='gallery-item'>
 			<span class='gallery-icon'>
 				<a rel='attachment' href='../../../../wp-content/uploads/2013/12/DSC09954.jpg' title="De San Pedro de Atacama vers la Bolivie" data-rl_title="De San Pedro de Atacama vers la Bolivie" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2013/12/DSC09954-150x150.jpg" class="attachment-thumbnail" alt="De San Pedro de Atacama vers la Bolivie" /></a>

@@ -11,6 +11,7 @@
 <link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
@@ -24,6 +25,9 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
+<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
 <link rel='prev' title='Kayak de mer dans les Fjords de Patagonie' href='../../18/kayak-de-mer-dans-les-fjords-de-patagonie/' />
 <link rel='next' title='L&rsquo;écume des cimes &#8211; Sea to Summit (6893 m)' href='../lecume-des-cimes-sea-to-summit-6893-m/' />
 <meta name="generator" content="WordPress 4.0.29" />
@@ -53,6 +57,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 			});
 		}
 				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+		displayGpxTrack('Chili - Ojos Del Salado.gpx');
 	});
 	jQuery(window).load(function() {
 			});
@@ -147,7 +152,7 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 														<div id="attachment_1650" style="width: 1034px" class="wp-caption alignleft"><a href="../../../../wp-content/uploads/2014/01/DSC00480.jpg" data-rel="lightbox-gallery-9ZEGhNnI" data-rl_title="Sommet argentin &#8211; Ojos del Salado" data-rl_caption="" title="Sommet argentin &#8211; Ojos del Salado"><img class="size-full wp-image-1650" alt="Sommet argentin - Ojos del Salado" src="../../../../wp-content/uploads/2014/01/DSC00480.jpg" width="1024" height="232" /></a><p class="wp-caption-text">Sommet argentin &#8211; Ojos del Salado</p></div>
 <p style="text-align: justify;"><strong>Images d&rsquo;une expédition en solitaire et sans moyen motorisé, qui m&rsquo;a mené du niveau de la mer à <em>Bahia Inglesa</em>,  jusqu&rsquo;à la cime du volcan <em>Ojos del Salado</em> à 6893 mètres d&rsquo;altitude, avant de redescendre par le même chemin jusqu&rsquo;au vague niveau de la mer.</strong></p>
 <p style="text-align: justify;"><strong>Période:</strong> du 28 Décembre 2013  au 16 janvier 2014</p>
-<p>[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;SATELLITE&nbsp;&raquo; gpx=&nbsp;&raquo;https://hiiha.fr/wp-content/uploads/Chili &#8211; Ojos Del Salado.gpx&nbsp;&raquo;]</p>
+<div class="map" id="map"></div>
 <p><span style="font-size: 32px; font-weight: bold; line-height: 1.62em;">CHAQUE MÈTRE COMPTE</span></p>
 <p>L&rsquo;ascension entre Bahia Inglesa (niveau de la mer) et le refuge Murray (4530 mètres) est rythmée par les panneaux indicateurs. Chaque mètre arraché à la gravité l&rsquo;est à la force du mollet.</p>
 

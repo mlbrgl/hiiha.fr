@@ -1702,6 +1702,13 @@ textarea#comment:focus {
 	color:#d54e21;
 }
 
+.map { 
+	width: auto;
+	height:400px;
+	margin:20px 0px; 
+	border: 1px solid black;
+}
+
 @media screen and (max-width: 1152px) {
 
 	#wrapper {

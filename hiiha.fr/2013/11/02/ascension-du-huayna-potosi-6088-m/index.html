@@ -11,6 +11,7 @@
 <link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
 <link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
@@ -24,6 +25,9 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
 <script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
 <script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
+<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
 <link rel='prev' title='En vélo de Puno (Pérou) à La Paz (Bolivie)' href='../../../10/30/en-velo-de-puno-perou-a-la-paz-bolivie/' />
 <link rel='next' title='A vélo sur l&rsquo;Altiplano' href='../../20/a-velo-sur-laltiplano/' />
 <meta name="generator" content="WordPress 4.0.29" />
@@ -53,6 +57,8 @@ var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeG
 			});
 		}
 				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+		displayGpxTrack('Bolivie - Pico Austria 5350 m.gpx');
+		displayGpxTrack('Bolivie - Huayna Potosi 6088 m.gpx', 'map-huayna-potosi');
 	});
 	jQuery(window).load(function() {
 			});
@@ -152,7 +158,7 @@ Altitude d’arrivée : 5350 m
 Durée : 2 jours/1 nuit</pre>
 <div id="attachment_1293" style="width: 310px" class="wp-caption alignright"><a href="../../../../wp-content/uploads/2013/11/DSC08684.jpg" data-rel="lightbox-gallery-y2yjHWQ2" data-rl_title="Vue du Huayna Potosi &#8211; Vers le Pico Austria" data-rl_caption="" title="Vue du Huayna Potosi &#8211; Vers le Pico Austria"><img class="size-medium wp-image-1293" src="../../../../wp-content/uploads/2013/11/DSC08684-300x200.jpg" alt="Vue du Huayna Potosi - Vers le Pico Austria" width="300" height="200" /></a><p class="wp-caption-text">Vue du Huayna Potosi &#8211; Vers le Pico Austria</p></div>
 <p style="text-align: justify;">Nous commençâmes notre courte randonnée près du lac de Tuni. Arrivés à la laguna Chiar Khota, nous déposâmes nos affaires au refuge avant de faire un tour du lac. Deux Belges partagèrent avec nous le repas 4 étoiles mitonné par notre guide Victor. Le lendemain, une montée de 3 heures permit d&rsquo;atteindre sans encombres le sommet du Pico Austria. Nous pouvions admirer le lac Titicaca, La Paz, le Condoriri, le Pequeño Alpamayo ainsi que notre objectif : le Huayna Potosi. Laetitia ressentit les premiers effets de l&rsquo;altitude à notre arrivée au sommet et c&rsquo;est avec un mal de tête persistant qu&rsquo;elle dût  redescendre au refuge. Une nuit de repos à la Paz permit de recharger les batteries pour la suite des évènements.</p>
-<p>[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;HYBRID&nbsp;&raquo; gpx=&nbsp;&raquo;/wp-content/uploads/Bolivie &#8211; Pico Austria 5350 m.gpx&nbsp;&raquo;]</p>
+<div class="map" id="map"></div>
 <p>&nbsp;</p>
 <pre>Huayna Potosi
 Camp de départ : 4700 m
@@ -167,7 +173,7 @@ Durée : 3 jours/2 nuits</pre>
 <p style="text-align: justify;">A peine le temps de se réjouir qu&rsquo;il fallait redescendre pour devancer la transformation de la neige et retourner à la Paz.</p>
 <div id="attachment_1305" style="width: 1034px" class="wp-caption alignleft"><a href="../../../../wp-content/uploads/2013/11/DSC08802.jpg" data-rel="lightbox-gallery-y2yjHWQ2" data-rl_title="Descente &#8211; Huayna Potosi" data-rl_caption="" title="Descente &#8211; Huayna Potosi"><img class="size-full wp-image-1305" src="../../../../wp-content/uploads/2013/11/DSC08802.jpg" alt="Redescente - Huanya Potosi" width="1024" height="683" /></a><p class="wp-caption-text">Redescente &#8211; Huanya Potosi</p></div>
 <p>&nbsp;</p>
-<p>[map style=&nbsp;&raquo;width: auto; height:400px; margin:20px 0px 20px 0px; border: 1px solid black;&nbsp;&raquo; maptype=&nbsp;&raquo;HYBRID&nbsp;&raquo; gpx=&nbsp;&raquo;/wp-content/uploads/Bolivie &#8211; Huayna Potosi 6088 m.gpx&nbsp;&raquo;]</p>
+<div class="map" id="map-huayna-potosi"></div>
 <p>&nbsp;</p>
 <p><strong>GALERIE PHOTO</strong></p>
 
