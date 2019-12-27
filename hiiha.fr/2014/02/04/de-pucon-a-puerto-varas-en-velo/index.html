@@ -1,775 +1,1470 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width" />
-<title>  De Pucón à Puerto Varas en vélo</title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<!--[if lt IE 9]>
-<script src="../../../../wp-content/themes/esplanade/scripts/html5.js" type="text/javascript"></script>
-<![endif]-->
-<link rel='stylesheet' id='responsive-lightbox-tosrus-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css' type='text/css' media='all' />
-<link rel='stylesheet' id='esplanade-web-font-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin' type='text/css' media='all' />
-<link rel='stylesheet' id='esplanade-css'  href='../../../../wp-content/themes/esplanade/style.css' type='text/css' media='all' />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css" />
-<script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js'></script>
-<script type='text/javascript' src='../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
-<script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeGalleries":"1","effect":"slide","infinite":"1","keys":"1","autoplay":"1","pauseOnHover":"1","timeout":"4000","pagination":"0","paginationType":"thumbnails","closeOnClick":"1","woocommerce_gallery":"0"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='../../../../wp-content/plugins/responsive-lightbox/js/front-ver=2.2.2.js'></script>
-<script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js'></script>
-<script type='text/javascript' src='../../../../wp-includes/js/swfobject-ver=2.2-20120417.js'></script>
-<script type='text/javascript' src='../../../../wp-content/themes/esplanade/scripts/audio-player.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script> 
-<script src='../../../../wp-content/themes/esplanade/scripts/gpx.js'></script>
-<link rel='prev' title='Déambulations urbaines : Santiago &amp; Valparaiso' href='../../../01/21/deambulations-urbaines-santiago-valparaiso/' />
-<link rel='next' title='Carretera Austral &#8211; Bande annonce' href='../../06/carretera-austral-bande-annonce/' />
-<meta name="generator" content="WordPress 4.0.29" />
-<link rel='canonical' href='.' />
-<link rel='shortlink' href='.' />
-<script>
-/* <![CDATA[ */
-	jQuery(document).ready(function($) {
-		$('.nav-toggle').click(function() {
-			$('#access div ul:first-child').slideToggle(250);
-			return false;
-		});
-		if( ($(window).width() > 640) || ($(document).width() > 640) ) {
-							$('#access li').mouseenter(function() {
-					$(this).children('ul').css('display', 'none').stop(true, true).slideToggle(250).css('display', 'block').children('ul').css('display', 'none');
-				});
-				$('#access li').mouseleave(function() {
-					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
-				})
-					} else {
-			$('#access li').each(function() {
-				if($(this).children('ul').length)
-					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
-			});
-			$('.drop-down-toggle').click(function() {
-				$(this).parent().children('ul').slideToggle(250);
-			});
-		}
-				$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
-		displayGpxTrack('Chili - Pucón à Puertos Varas en vélo - Parcours.gpx');
-	});
-	jQuery(window).load(function() {
-			});
-	AudioPlayer.setup("https://hiiha.fr/wp-content/themes/esplanade/audio-player/player.swf", {  
-		width: 320  
-	});
-/* ]]> */
-</script>
-<style type="text/css">
-													#content {
-				width:72.12%;
-			}
-			#sidebar {
-				width:25.11%;
-			}
-			@media screen and (max-width: 960px) {
-				#content,
-				#sidebar {
-					width:auto;
-				}
-			}
-																																						</style>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>De Pucón à Puerto Varas en vélo</title>
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <!--[if lt IE 9]>
+      <script src="../../../../wp-content/themes/esplanade/scripts/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <link
+      rel="stylesheet"
+      id="responsive-lightbox-tosrus-css"
+      href="../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="esplanade-web-font-css"
+      href="https://fonts.googleapis.com/css?family=Droid+Sans:regular,italic,bold,bolditalic&subset=latin"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" id="esplanade-css" href="../../../../wp-content/themes/esplanade/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css" />
+    <script type="text/javascript" src="../../../../wp-includes/js/jquery/jquery-ver=1.11.1.js"></script>
+    <script type="text/javascript" src="../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min-ver=2.2.2.js"></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var rlArgs = {
+        script: "tosrus",
+        selector: "lightbox",
+        customEvents: "",
+        activeGalleries: "1",
+        effect: "slide",
+        infinite: "1",
+        keys: "1",
+        autoplay: "1",
+        pauseOnHover: "1",
+        timeout: "4000",
+        pagination: "0",
+        paginationType: "thumbnails",
+        closeOnClick: "1",
+        woocommerce_gallery: "0"
+      };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="../../../../wp-content/plugins/responsive-lightbox/js/front-ver=2.2.2.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/esplanade/scripts/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/esplanade/scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../../../wp-includes/js/swfobject-ver=2.2-20120417.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/esplanade/scripts/audio-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
+    <script src="../../../../wp-content/themes/esplanade/scripts/gpx.js"></script>
+    <link rel="prev" title="Déambulations urbaines : Santiago &amp; Valparaiso" href="../../../01/21/deambulations-urbaines-santiago-valparaiso/" />
+    <link rel="next" title="Carretera Austral &#8211; Bande annonce" href="../../06/carretera-austral-bande-annonce/" />
+    <meta name="generator" content="WordPress 4.0.29" />
+    <link rel="canonical" href="." />
+    <link rel="shortlink" href="." />
+    <script>
+      /* <![CDATA[ */
+      jQuery(document).ready(function($) {
+        $(".nav-toggle").click(function() {
+          $("#access div ul:first-child").slideToggle(250);
+          return false;
+        });
+        if ($(window).width() > 640 || $(document).width() > 640) {
+          $("#access li").mouseenter(function() {
+            $(this)
+              .children("ul")
+              .css("display", "none")
+              .stop(true, true)
+              .slideToggle(250)
+              .css("display", "block")
+              .children("ul")
+              .css("display", "none");
+          });
+          $("#access li").mouseleave(function() {
+            $(this)
+              .children("ul")
+              .stop(true, true)
+              .fadeOut(250)
+              .css("display", "block");
+          });
+        } else {
+          $("#access li").each(function() {
+            if ($(this).children("ul").length) $(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+          });
+          $(".drop-down-toggle").click(function() {
+            $(this)
+              .parent()
+              .children("ul")
+              .slideToggle(250);
+          });
+        }
+        $(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed" });
+        displayGpxTrack("Chili - Pucón à Puertos Varas en vélo - Parcours.gpx");
+      });
+      jQuery(window).load(function() {});
+      AudioPlayer.setup("https://hiiha.fr/wp-content/themes/esplanade/audio-player/player.swf", {
+        width: 320
+      });
+      /* ]]> */
+    </script>
+    <style type="text/css">
+      #content {
+        width: 72.12%;
+      }
+      #sidebar {
+        width: 25.11%;
+      }
+      @media screen and (max-width: 960px) {
+        #content,
+        #sidebar {
+          width: auto;
+        }
+      }
+    </style>
+  </head>
 
-<body class="single single-post postid-1750 single-format-standard">
-	<div id="wrapper">
-		<header id="header">
-			<div id="site-title"><a href="../../../../" rel="home">Hiiha &#8211; Tour du monde</a></div>
-							<div id="site-description">&quot;Je hais les voyages et les explorateurs&quot; &#8211; Claude Lévi-Strauss</div>
-									<div class="clear"></div>
-						<nav id="access">
-				<a class="nav-toggle" href=".#">Navigation</a>
-				<div class="menu-menu-general-container"><ul id="menu-menu-general" class="menu"><li id="menu-item-1882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1882"><a href="../../../../">Accueil</a></li>
-<li id="menu-item-521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-521"><a href="../../../../presentation-2/">Présentation</a></li>
-<li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-530"><a href="../../../../itineraire/">Itinéraire</a>
-<ul class="sub-menu">
-	<li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="../../../../itineraire/en-bref/">Itinéraire en Bref</a></li>
-	<li id="menu-item-331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="../../../../itineraire/itineraire/">Itinéraire Islande</a></li>
-	<li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-859"><a href="../../../../itineraire/itineraire-canada/">Itinéraire Canada</a></li>
-</ul>
-</li>
-<li id="menu-item-147" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-147"><a href="../../../../category/activite/">Activité</a>
-<ul class="sub-menu">
-	<li id="menu-item-149" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-149"><a href="../../../../category/activite/velo/">Vélo</a></li>
-	<li id="menu-item-148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148"><a href="../../../../category/activite/randonnee/">Randonnée</a></li>
-	<li id="menu-item-508" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-508"><a href="../../../../category/activite/canoe/">Canoë</a></li>
-	<li id="menu-item-1336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1336"><a href="../../../../category/activite/alpinisme/">Alpinisme</a></li>
-	<li id="menu-item-1585" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1585"><a href="../../../../category/activite/parapente-activite/">Parapente</a></li>
-	<li id="menu-item-1848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1848"><a href="../../../../category/activite/kayak-de-mer/">Kayak de mer</a></li>
-</ul>
-</li>
-<li id="menu-item-150" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-150"><a href="../../../../category/pays/">Pays</a>
-<ul class="sub-menu">
-	<li id="menu-item-152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-152"><a href="../../../../category/pays/islande/">Islande</a></li>
-	<li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151"><a href="../../../../category/pays/canada/">Canada</a></li>
-	<li id="menu-item-825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-825"><a href="../../../../category/pays/usa/">USA</a></li>
-	<li id="menu-item-1246" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1246"><a href="../../../../category/pays/perou/">Pérou</a></li>
-	<li id="menu-item-1247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1247"><a href="../../../../category/pays/bolivie/">Bolivie</a></li>
-	<li id="menu-item-1430" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1430"><a href="../../../../category/pays/chili/">Chili</a></li>
-	<li id="menu-item-2006" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2006"><a href="../../../../category/pays/argentine/">Argentine</a></li>
-</ul>
-</li>
-<li id="menu-item-181" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-181"><a href="../../../../category/media/">Média</a>
-<ul class="sub-menu">
-	<li id="menu-item-182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-182"><a href="../../../../category/media/article/">Article</a></li>
-	<li id="menu-item-183" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-183"><a href="../../../../category/media/images/">Images</a></li>
-	<li id="menu-item-184" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-184"><a href="../../../../category/media/video/">Vidéo</a></li>
-</ul>
-</li>
-</ul></div>				<div class="clear"></div>
-			</nav><!-- #access -->
-		</header><!-- #header -->
-	<div id="container">
-				<section id="content">
-							<article class="post-1750 post type-post status-publish format-standard has-post-thumbnail hentry category-chili category-images category-velo tag-pucon tag-puerto-varas tag-route-des-7-lacs tag-termas-geometricas" id="post-1750">
-					<div class="entry">
-													<div id="location">
-									<div id="breadcrumbs">
-	<span class="prefix-text">You are here:</span>
-	<a href="../../../../" rel="home">Home</a>
-	 &rsaquo; 				<a href="../../../../category/pays/chili/" rel="bookmark">Chili</a>
-				 &rsaquo; De Pucón à Puerto Varas en vélo	</div>
-							</div><!-- #location -->
-																		<header class="entry-header">
-							<h1 class="entry-title">De Pucón à Puerto Varas en vélo</h1>
-							<aside class="entry-meta">
-								4 février 2014 | 
-								Filed under: <a href="../../../../category/pays/chili/" rel="category tag">Chili</a>, <a href="../../../../category/media/images/" rel="category tag">Images</a>, <a href="../../../../category/activite/velo/" rel="category tag">Vélo</a>								and tagged with: <a href="../../../../tag/pucon/" rel="tag">pucon</a>, <a href="../../../../tag/puerto-varas/" rel="tag">puerto varas</a>, <a href="../../../../tag/route-des-7-lacs/" rel="tag">route des 7 lacs</a>, <a href="../../../../tag/termas-geometricas/" rel="tag">termas geometricas</a>										
-							</aside><!-- .entry-meta -->
-						</header><!-- .entry-header -->
-						<div class="entry-content">
-														<p><a href="../../../../wp-content/uploads/2014/02/DSC01329.jpg" data-rel="lightbox-gallery-UphVCpdl" data-rl_title="Lago Villarrica" data-rl_caption="" title="Lago Villarrica"><img class="size-full wp-image-1785" alt="Lago Villarrica" src="../../../../wp-content/uploads/2014/02/DSC01329.jpg" width="1024" height="232" /></a></p>
-<p>Depuis les forêts d&rsquo;<em>Araucaria du Chili, </em>aux collines verdoyantes qui rappellent <a href="http://www.huffingtonpost.fr/2012/07/18/le-photographe-colline-verdoyante_n_1682225.html">la photo la plus célèbre du monde</a>, la traversée de la région des lacs aux Chili a été un enchantement. Nous en avons les yeux humides (ainsi que la veste, le pantalon, les gants, le duvet, la tente &#8230;) rien qu&rsquo;à l&rsquo;évoquer.</p>
-<pre>En vélo de Pucon à Puerto Varas
+  <body class="single single-post postid-1750 single-format-standard">
+    <div id="wrapper">
+      <header id="header">
+        <div id="site-title"><a href="../../../../" rel="home">Hiiha &#8211; Tour du monde</a></div>
+        <div id="site-description">
+          &quot;Je hais les voyages et les explorateurs&quot; &#8211; Claude Lévi-Strauss
+        </div>
+        <div class="clear"></div>
+        <nav id="access">
+          <a class="nav-toggle" href=".#">Navigation</a>
+          <div class="menu-menu-general-container">
+            <ul id="menu-menu-general" class="menu">
+              <li id="menu-item-1882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1882">
+                <a href="../../../../">Accueil</a>
+              </li>
+              <li id="menu-item-521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-521">
+                <a href="../../../../presentation-2/">Présentation</a>
+              </li>
+              <li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-530">
+                <a href="../../../../itineraire/">Itinéraire</a>
+                <ul class="sub-menu">
+                  <li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884">
+                    <a href="../../../../itineraire/en-bref/">Itinéraire en Bref</a>
+                  </li>
+                  <li id="menu-item-331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                    <a href="../../../../itineraire/itineraire/">Itinéraire Islande</a>
+                  </li>
+                  <li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-859">
+                    <a href="../../../../itineraire/itineraire-canada/">Itinéraire Canada</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-147"
+                class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-147"
+              >
+                <a href="../../../../category/activite/">Activité</a>
+                <ul class="sub-menu">
+                  <li
+                    id="menu-item-149"
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-149"
+                  >
+                    <a href="../../../../category/activite/velo/">Vélo</a>
+                  </li>
+                  <li id="menu-item-148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148">
+                    <a href="../../../../category/activite/randonnee/">Randonnée</a>
+                  </li>
+                  <li id="menu-item-508" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-508">
+                    <a href="../../../../category/activite/canoe/">Canoë</a>
+                  </li>
+                  <li id="menu-item-1336" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1336">
+                    <a href="../../../../category/activite/alpinisme/">Alpinisme</a>
+                  </li>
+                  <li id="menu-item-1585" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1585">
+                    <a href="../../../../category/activite/parapente-activite/">Parapente</a>
+                  </li>
+                  <li id="menu-item-1848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1848">
+                    <a href="../../../../category/activite/kayak-de-mer/">Kayak de mer</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-150"
+                class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-150"
+              >
+                <a href="../../../../category/pays/">Pays</a>
+                <ul class="sub-menu">
+                  <li id="menu-item-152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-152">
+                    <a href="../../../../category/pays/islande/">Islande</a>
+                  </li>
+                  <li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151">
+                    <a href="../../../../category/pays/canada/">Canada</a>
+                  </li>
+                  <li id="menu-item-825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-825">
+                    <a href="../../../../category/pays/usa/">USA</a>
+                  </li>
+                  <li id="menu-item-1246" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1246">
+                    <a href="../../../../category/pays/perou/">Pérou</a>
+                  </li>
+                  <li id="menu-item-1247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1247">
+                    <a href="../../../../category/pays/bolivie/">Bolivie</a>
+                  </li>
+                  <li
+                    id="menu-item-1430"
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1430"
+                  >
+                    <a href="../../../../category/pays/chili/">Chili</a>
+                  </li>
+                  <li id="menu-item-2006" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2006">
+                    <a href="../../../../category/pays/argentine/">Argentine</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-181"
+                class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-181"
+              >
+                <a href="../../../../category/media/">Média</a>
+                <ul class="sub-menu">
+                  <li id="menu-item-182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-182">
+                    <a href="../../../../category/media/article/">Article</a>
+                  </li>
+                  <li
+                    id="menu-item-183"
+                    class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-183"
+                  >
+                    <a href="../../../../category/media/images/">Images</a>
+                  </li>
+                  <li id="menu-item-184" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-184">
+                    <a href="../../../../category/media/video/">Vidéo</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </nav>
+        <!-- #access -->
+      </header>
+      <!-- #header -->
+      <div id="container">
+        <section id="content">
+          <article
+            class="post-1750 post type-post status-publish format-standard has-post-thumbnail hentry category-chili category-images category-velo tag-pucon tag-puerto-varas tag-route-des-7-lacs tag-termas-geometricas"
+            id="post-1750"
+          >
+            <div class="entry">
+              <div id="location">
+                <div id="breadcrumbs">
+                  <span class="prefix-text">You are here:</span>
+                  <a href="../../../../" rel="home">Home</a>
+                  &rsaquo;
+                  <a href="../../../../category/pays/chili/" rel="bookmark">Chili</a> &rsaquo; De Pucón à Puerto Varas en vélo
+                </div>
+              </div>
+              <!-- #location -->
+              <header class="entry-header">
+                <h1 class="entry-title">De Pucón à Puerto Varas en vélo</h1>
+                <aside class="entry-meta">
+                  4 février 2014 | Filed under:
+                  <a href="../../../../category/pays/chili/" rel="category tag">Chili</a>,
+                  <a href="../../../../category/media/images/" rel="category tag">Images</a>,
+                  <a href="../../../../category/activite/velo/" rel="category tag">Vélo</a> and tagged with:
+                  <a href="../../../../tag/pucon/" rel="tag">pucon</a>, <a href="../../../../tag/puerto-varas/" rel="tag">puerto varas</a>,
+                  <a href="../../../../tag/route-des-7-lacs/" rel="tag">route des 7 lacs</a>,
+                  <a href="../../../../tag/termas-geometricas/" rel="tag">termas geometricas</a>
+                </aside>
+                <!-- .entry-meta -->
+              </header>
+              <!-- .entry-header -->
+              <div class="entry-content">
+                <p>
+                  <a
+                    href="../../../../wp-content/uploads/2014/02/DSC01329.jpg"
+                    data-rel="lightbox-gallery-UphVCpdl"
+                    data-rl_title="Lago Villarrica"
+                    data-rl_caption=""
+                    title="Lago Villarrica"
+                    ><img
+                      class="size-full wp-image-1785"
+                      alt="Lago Villarrica"
+                      src="../../../../wp-content/uploads/2014/02/DSC01329.jpg"
+                      width="1024"
+                      height="232"
+                  /></a>
+                </p>
+                <p>
+                  Depuis les forêts d&rsquo;<em>Araucaria du Chili, </em>aux collines verdoyantes qui rappellent
+                  <a href="http://www.huffingtonpost.fr/2012/07/18/le-photographe-colline-verdoyante_n_1682225.html">la photo la plus célèbre du monde</a>, la
+                  traversée de la région des lacs aux Chili a été un enchantement. Nous en avons les yeux humides (ainsi que la veste, le pantalon, les gants,
+                  le duvet, la tente &#8230;) rien qu&rsquo;à l&rsquo;évoquer.
+                </p>
+                <pre>
+En vélo de Pucon à Puerto Varas
 Distance : 444 km
 Durée : 9 jours
-Dénivelé positif : 5200 m</pre>
-<h3></h3>
-<h3>Le top 10 de cette étape :</h3>
-<ul>
-<li>#10 : Assister à une représentation du plus vieux cirque chilien à Frutillar</li>
-<li>#9 : Déguster une <em>Küchen </em>(tarte en allemand) sur les bords du lac <em>Llanquihue</em> à Frutillar</li>
-<li>#8 : Regarder un film sous la tente</li>
-<li>#7 : Admirer la vue sur le volcan Villarica au bord du lac du même nom, à Pucon</li>
-<li>#6 : Se baigner dans le Lago Ranco par une chaude journée d&rsquo;été</li>
-<li>#5 : Filer sur l&rsquo;asphalte qui soulage les fesses et fait grimper la moyenne journalière en flèche</li>
-<li>#4 : Siroter (voire ingurgiter) de nombreux jus de fruits frais au chirimoya, mangue, fraise, framboise et myrtilles. S&rsquo;empiffrer d&rsquo;avocats achetés sur les étals en bord de route (minimum un par jour et par personne)</li>
-<li>#3 : Traverser le parc national Villarica à vélo</li>
-<li>#2 : Se relaxer (et accessoirement se laver) dans le cadre enchanteur des <em>Termas Geometricas</em> près de Coñaripe</li>
-<li>#1 : Croiser <em>Don Victor</em> qui nous invite à passer la nuit chez lui. Discuter jusqu&rsquo;à une heure du matin autour d&rsquo;une bouteille de vin chilien avec Ismael et sa <em>polola</em> New-Yorkaise Geraldine. Passer la nuit dans leur jardin au bord d&rsquo;une rivière.</li>
-</ul>
-<h3></h3>
-<h3><strong>Le flop 10 de cette étape :</strong></h3>
-<ul>
-<li>#10 : Se baffer des restes de la <em>Küchen </em>(voir top #9), trempés, sous un abri bus qui sent l&rsquo;urine</li>
-<li>#9 : Réaliser que, s&rsquo;il n&rsquo;y a pas de lac en pente pour faire du ski nautique, les routes qui les longent n&rsquo;en sont pas plates pour autant.</li>
-<li>#8 : Se rendrecompte quelabarre d&rsquo;espacede l&rsquo;ordinateurne marcheplus.</li>
-<li>#7 : Faire du vélo sur l&rsquo;autoroute (ça agace ces véhicules qui passent à 130 km/h quand on est scotché à 6km/h)</li>
-<li>#6: Penser que ce petit chemin qui coupe à travers les ronces est un raccourci</li>
-<li>#5 : Penser que ces 1000 mètres de dénivelé sur un sentier défoncé puissent être un raccourci</li>
-<li>#4 : Camper dans un jardin idyllique, et se rendre compte à minuit que le bâtiment d&rsquo;en face est une discothèque avec des murs en bois.</li>
-<li>#3 : Crever à 20 heures, à 1 km de l&rsquo;arrivée à Panguipulli</li>
-<li>#2: Se rendre compte après la fermeture de la discothèque à 5 heures du matin, que l&rsquo;<em>after</em> se passe dans le jardin où vous avez posé votre tente.</li>
-<li>#1: Vélo, pluie&#8230; tout est dit.</li>
-</ul>
-<p>&nbsp;</p>
+Dénivelé positif : 5200 m</pre
+                >
+                <h3></h3>
+                <h3>Le top 10 de cette étape :</h3>
+                <ul>
+                  <li>
+                    #10 : Assister à une représentation du plus vieux cirque chilien à Frutillar
+                  </li>
+                  <li>#9 : Déguster une <em>Küchen </em>(tarte en allemand) sur les bords du lac <em>Llanquihue</em> à Frutillar</li>
+                  <li>#8 : Regarder un film sous la tente</li>
+                  <li>
+                    #7 : Admirer la vue sur le volcan Villarica au bord du lac du même nom, à Pucon
+                  </li>
+                  <li>#6 : Se baigner dans le Lago Ranco par une chaude journée d&rsquo;été</li>
+                  <li>
+                    #5 : Filer sur l&rsquo;asphalte qui soulage les fesses et fait grimper la moyenne journalière en flèche
+                  </li>
+                  <li>
+                    #4 : Siroter (voire ingurgiter) de nombreux jus de fruits frais au chirimoya, mangue, fraise, framboise et myrtilles. S&rsquo;empiffrer
+                    d&rsquo;avocats achetés sur les étals en bord de route (minimum un par jour et par personne)
+                  </li>
+                  <li>#3 : Traverser le parc national Villarica à vélo</li>
+                  <li>
+                    #2 : Se relaxer (et accessoirement se laver) dans le cadre enchanteur des
+                    <em>Termas Geometricas</em> près de Coñaripe
+                  </li>
+                  <li>
+                    #1 : Croiser <em>Don Victor</em> qui nous invite à passer la nuit chez lui. Discuter jusqu&rsquo;à une heure du matin autour d&rsquo;une
+                    bouteille de vin chilien avec Ismael et sa <em>polola</em> New-Yorkaise Geraldine. Passer la nuit dans leur jardin au bord d&rsquo;une
+                    rivière.
+                  </li>
+                </ul>
+                <h3></h3>
+                <h3><strong>Le flop 10 de cette étape :</strong></h3>
+                <ul>
+                  <li>#10 : Se baffer des restes de la <em>Küchen </em>(voir top #9), trempés, sous un abri bus qui sent l&rsquo;urine</li>
+                  <li>
+                    #9 : Réaliser que, s&rsquo;il n&rsquo;y a pas de lac en pente pour faire du ski nautique, les routes qui les longent n&rsquo;en sont pas
+                    plates pour autant.
+                  </li>
+                  <li>
+                    #8 : Se rendrecompte quelabarre d&rsquo;espacede l&rsquo;ordinateurne marcheplus.
+                  </li>
+                  <li>
+                    #7 : Faire du vélo sur l&rsquo;autoroute (ça agace ces véhicules qui passent à 130 km/h quand on est scotché à 6km/h)
+                  </li>
+                  <li>
+                    #6: Penser que ce petit chemin qui coupe à travers les ronces est un raccourci
+                  </li>
+                  <li>
+                    #5 : Penser que ces 1000 mètres de dénivelé sur un sentier défoncé puissent être un raccourci
+                  </li>
+                  <li>
+                    #4 : Camper dans un jardin idyllique, et se rendre compte à minuit que le bâtiment d&rsquo;en face est une discothèque avec des murs en
+                    bois.
+                  </li>
+                  <li>#3 : Crever à 20 heures, à 1 km de l&rsquo;arrivée à Panguipulli</li>
+                  <li>
+                    #2: Se rendre compte après la fermeture de la discothèque à 5 heures du matin, que l&rsquo;<em>after</em> se passe dans le jardin où vous
+                    avez posé votre tente.
+                  </li>
+                  <li>#1: Vélo, pluie&#8230; tout est dit.</li>
+                </ul>
+                <p>&nbsp;</p>
 
-		<div id='gallery-1' class='gallery galleryid-1750 gallery-columns-3 gallery-size-thumbnail gallery-link-attachment'><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC011431.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC011431-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC011471.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC011471-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01154.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01154-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01157.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01157-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01163.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01163-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01200.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01200-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01224.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01224-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01266.jpg' title="Parc National Villarrica, Pucon" data-rl_title="Parc National Villarrica, Pucon" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01266-150x150.jpg" class="attachment-thumbnail" alt="Parc National Villarrica, Pucon" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Parc National Villarrica, Pucon
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01293.jpg' title="Termas Geometricas, Coñaripe" data-rl_title="Termas Geometricas, Coñaripe" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01293-150x150.jpg" class="attachment-thumbnail" alt="Termas Geometricas, Coñaripe" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Termas Geometricas, Coñaripe
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01296.jpg' title="Termas Geometricas, Coñaripe" data-rl_title="Termas Geometricas, Coñaripe" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01296-150x150.jpg" class="attachment-thumbnail" alt="Termas Geometricas, Coñaripe" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Termas Geometricas, Coñaripe
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01301.jpg' title="Termas Geometricas, Coñaripe" data-rl_title="Termas Geometricas, Coñaripe" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01301-150x150.jpg" class="attachment-thumbnail" alt="Termas Geometricas, Coñaripe" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Termas Geometricas, Coñaripe
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01323.jpg' title="Lago Calafquéen, Coñaripe" data-rl_title="Lago Calafquéen, Coñaripe" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01323-150x150.jpg" class="attachment-thumbnail" alt="Lago Calafquéen, Coñaripe" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Lago Calafquéen, Coñaripe
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01334.jpg' title="Lago Panguipulli, Panguipulli" data-rl_title="Lago Panguipulli, Panguipulli" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01334-150x150.jpg" class="attachment-thumbnail" alt="Lago Panguipulli, Panguipulli" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Lago Panguipulli, Panguipulli
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01344.jpg' title="En direction de Los Lagos" data-rl_title="En direction de Los Lagos" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01344-150x150.jpg" class="attachment-thumbnail" alt="En direction de Los Lagos" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				En direction de Los Lagos
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01365.jpg' title="Fleur bleu, Futrono" data-rl_title="Fleur bleu, Futrono" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01365-150x150.jpg" class="attachment-thumbnail" alt="Fleur bleu, Futrono" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Fleur bleu, Futrono
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01371.jpg' title="Plage municipal, Futrono" data-rl_title="Plage municipal, Futrono" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01371-150x150.jpg" class="attachment-thumbnail" alt="Plage municipal, Futrono" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Plage municipal, Futrono
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01380.jpg' title="Prairie verdoyante, Futrono" data-rl_title="Prairie verdoyante, Futrono" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01380-150x150.jpg" class="attachment-thumbnail" alt="Prairie verdoyante, Futrono" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Prairie verdoyante, Futrono
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01398.jpg' title="Lago Ranco, Futrono" data-rl_title="Lago Ranco, Futrono" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01398-150x150.jpg" class="attachment-thumbnail" alt="Lago Ranco, Futrono" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Lago Ranco, Futrono
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01407.jpg' title="Camping dans un jardin, Puerto Nuevo" data-rl_title="Camping dans un jardin, Puerto Nuevo" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01407-150x150.jpg" class="attachment-thumbnail" alt="Camping dans un jardin, Puerto Nuevo" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Camping dans un jardin, Puerto Nuevo
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01387.jpg' title="Prairie verdoyante, Futrono" data-rl_title="Prairie verdoyante, Futrono" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01387-150x150.jpg" class="attachment-thumbnail" alt="Prairie verdoyante, Futrono" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Prairie verdoyante, Futrono
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01410.jpg' title="Oiseau à long bec" data-rl_title="Oiseau à long bec" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01410-150x150.jpg" class="attachment-thumbnail" alt="Oiseau à long bec" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Oiseau à long bec
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01424.jpg' title="Notre hôte, Cancura" data-rl_title="Notre hôte, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01424-150x150.jpg" class="attachment-thumbnail" alt="Notre hôte, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Notre hôte, Cancura
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01427.jpg' title="Journal de bord, Cancura" data-rl_title="Journal de bord, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01427-150x150.jpg" class="attachment-thumbnail" alt="Journal de bord, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Journal de bord, Cancura
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01431.jpg' title="Rio Rahue, Cancura" data-rl_title="Rio Rahue, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01431-150x150.jpg" class="attachment-thumbnail" alt="Rio Rahue, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Rio Rahue, Cancura
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01439.jpg' title="Chien, Cancura" data-rl_title="Chien, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01439-150x150.jpg" class="attachment-thumbnail" alt="Chien, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Chien, Cancura
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01449.jpg' title="Kiko l&rsquo;alpaga, Cancura" data-rl_title="Kiko l&rsquo;alpaga, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01449-150x150.jpg" class="attachment-thumbnail" alt="Kiko l&#039;alpaga, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Kiko l&rsquo;alpaga, Cancura
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01450.jpg' title="Géraldine &amp; Ismael, Cancura" data-rl_title="Géraldine &amp; Ismael, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01450-150x150.jpg" class="attachment-thumbnail" alt="Géraldine &amp; Ismael, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Géraldine &#038; Ismael, Cancura
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01453.jpg' title="Géraldine &amp; Ismael, Cancura" data-rl_title="Géraldine &amp; Ismael, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01453-150x150.jpg" class="attachment-thumbnail" alt="Géraldine &amp; Ismael, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Géraldine &#038; Ismael, Cancura
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01456.jpg' title="Nos hôtes, Cancura" data-rl_title="Nos hôtes, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01456-150x150.jpg" class="attachment-thumbnail" alt="Nos hôtes, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Nos hôtes, Cancura
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01457.jpg' title="Nos hôtes, Cancura" data-rl_title="Nos hôtes, Cancura" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01457-150x150.jpg" class="attachment-thumbnail" alt="Nos hôtes, Cancura" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Nos hôtes, Cancura
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01460.jpg' title="Puerto Octay" data-rl_title="Puerto Octay" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01460-150x150.jpg" class="attachment-thumbnail" alt="Puerto Octay" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Puerto Octay
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01462.jpg' title="Mon nouveau vélo, Frutillar" data-rl_title="Mon nouveau vélo, Frutillar" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01462-150x150.jpg" class="attachment-thumbnail" alt="Mon nouveau vélo, Frutillar" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Mon nouveau vélo, Frutillar
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01471.jpg' title="Eine Küche für zwei, Frutillar" data-rl_title="Eine Küche für zwei, Frutillar" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01471-150x150.jpg" class="attachment-thumbnail" alt="Eine Küche für zwei, Frutillar" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Eine Küche für zwei, Frutillar
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01478.jpg' title="Sous la pluie, Llanquihue" data-rl_title="Sous la pluie, Llanquihue" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01478-150x150.jpg" class="attachment-thumbnail" alt="Sous la pluie, Llanquihue" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Sous la pluie, Llanquihue
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01480.jpg' title="Lago Llanquihue" data-rl_title="Lago Llanquihue" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01480-150x150.jpg" class="attachment-thumbnail" alt="Lago Llanquihue" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Lago Llanquihue
-				</figcaption></figure><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01483.jpg' title="Puerto Varas" data-rl_title="Puerto Varas" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01483-150x150.jpg" class="attachment-thumbnail" alt="Puerto Varas" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Puerto Varas
-				</figcaption></figure><br style="clear: both" /><figure class='gallery-item'>
-			<span class='gallery-icon'>
-				<a rel='attachment' href='../../../../wp-content/uploads/2014/02/DSC01482.jpg' title="Puerto Varas" data-rl_title="Puerto Varas" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-0"><img width="150" height="150" src="../../../../wp-content/uploads/2014/02/DSC01482-150x150.jpg" class="attachment-thumbnail" alt="Puerto Varas" /></a>
-			</span>
-				<figcaption class='wp-caption-text gallery-caption'>
-				Puerto Varas
-				</figcaption></figure>
-			<div class='clear'></div>
-		</div>
+                <div id="gallery-1" class="gallery galleryid-1750 gallery-columns-3 gallery-size-thumbnail gallery-link-attachment">
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC011431.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC011431-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC011471.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC011471-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01154.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01154-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01157.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01157-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01163.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01163-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01200.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01200-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01224.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01224-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01266.jpg"
+                        title="Parc National Villarrica, Pucon"
+                        data-rl_title="Parc National Villarrica, Pucon"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01266-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Parc National Villarrica, Pucon"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Parc National Villarrica, Pucon
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01293.jpg"
+                        title="Termas Geometricas, Coñaripe"
+                        data-rl_title="Termas Geometricas, Coñaripe"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01293-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Termas Geometricas, Coñaripe"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Termas Geometricas, Coñaripe
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01296.jpg"
+                        title="Termas Geometricas, Coñaripe"
+                        data-rl_title="Termas Geometricas, Coñaripe"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01296-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Termas Geometricas, Coñaripe"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Termas Geometricas, Coñaripe
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01301.jpg"
+                        title="Termas Geometricas, Coñaripe"
+                        data-rl_title="Termas Geometricas, Coñaripe"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01301-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Termas Geometricas, Coñaripe"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Termas Geometricas, Coñaripe
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01323.jpg"
+                        title="Lago Calafquéen, Coñaripe"
+                        data-rl_title="Lago Calafquéen, Coñaripe"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01323-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Lago Calafquéen, Coñaripe"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Lago Calafquéen, Coñaripe
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01334.jpg"
+                        title="Lago Panguipulli, Panguipulli"
+                        data-rl_title="Lago Panguipulli, Panguipulli"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01334-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Lago Panguipulli, Panguipulli"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Lago Panguipulli, Panguipulli
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01344.jpg"
+                        title="En direction de Los Lagos"
+                        data-rl_title="En direction de Los Lagos"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01344-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="En direction de Los Lagos"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      En direction de Los Lagos
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01365.jpg"
+                        title="Fleur bleu, Futrono"
+                        data-rl_title="Fleur bleu, Futrono"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01365-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Fleur bleu, Futrono"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Fleur bleu, Futrono
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01371.jpg"
+                        title="Plage municipal, Futrono"
+                        data-rl_title="Plage municipal, Futrono"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01371-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Plage municipal, Futrono"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Plage municipal, Futrono
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01380.jpg"
+                        title="Prairie verdoyante, Futrono"
+                        data-rl_title="Prairie verdoyante, Futrono"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01380-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Prairie verdoyante, Futrono"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Prairie verdoyante, Futrono
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01398.jpg"
+                        title="Lago Ranco, Futrono"
+                        data-rl_title="Lago Ranco, Futrono"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01398-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Lago Ranco, Futrono"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Lago Ranco, Futrono
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01407.jpg"
+                        title="Camping dans un jardin, Puerto Nuevo"
+                        data-rl_title="Camping dans un jardin, Puerto Nuevo"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01407-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Camping dans un jardin, Puerto Nuevo"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Camping dans un jardin, Puerto Nuevo
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01387.jpg"
+                        title="Prairie verdoyante, Futrono"
+                        data-rl_title="Prairie verdoyante, Futrono"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01387-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Prairie verdoyante, Futrono"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Prairie verdoyante, Futrono
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01410.jpg"
+                        title="Oiseau à long bec"
+                        data-rl_title="Oiseau à long bec"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01410-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Oiseau à long bec"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Oiseau à long bec
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01424.jpg"
+                        title="Notre hôte, Cancura"
+                        data-rl_title="Notre hôte, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01424-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Notre hôte, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Notre hôte, Cancura
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01427.jpg"
+                        title="Journal de bord, Cancura"
+                        data-rl_title="Journal de bord, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01427-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Journal de bord, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Journal de bord, Cancura
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01431.jpg"
+                        title="Rio Rahue, Cancura"
+                        data-rl_title="Rio Rahue, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01431-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Rio Rahue, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Rio Rahue, Cancura
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01439.jpg"
+                        title="Chien, Cancura"
+                        data-rl_title="Chien, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01439-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Chien, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Chien, Cancura
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01449.jpg"
+                        title="Kiko l&rsquo;alpaga, Cancura"
+                        data-rl_title="Kiko l&rsquo;alpaga, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01449-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Kiko l&#039;alpaga, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Kiko l&rsquo;alpaga, Cancura
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01450.jpg"
+                        title="Géraldine &amp; Ismael, Cancura"
+                        data-rl_title="Géraldine &amp; Ismael, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01450-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Géraldine &amp; Ismael, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Géraldine &#038; Ismael, Cancura
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01453.jpg"
+                        title="Géraldine &amp; Ismael, Cancura"
+                        data-rl_title="Géraldine &amp; Ismael, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01453-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Géraldine &amp; Ismael, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Géraldine &#038; Ismael, Cancura
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01456.jpg"
+                        title="Nos hôtes, Cancura"
+                        data-rl_title="Nos hôtes, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01456-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Nos hôtes, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Nos hôtes, Cancura
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01457.jpg"
+                        title="Nos hôtes, Cancura"
+                        data-rl_title="Nos hôtes, Cancura"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01457-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Nos hôtes, Cancura"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Nos hôtes, Cancura
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01460.jpg"
+                        title="Puerto Octay"
+                        data-rl_title="Puerto Octay"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01460-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Puerto Octay"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Puerto Octay
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01462.jpg"
+                        title="Mon nouveau vélo, Frutillar"
+                        data-rl_title="Mon nouveau vélo, Frutillar"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01462-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Mon nouveau vélo, Frutillar"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Mon nouveau vélo, Frutillar
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01471.jpg"
+                        title="Eine Küche für zwei, Frutillar"
+                        data-rl_title="Eine Küche für zwei, Frutillar"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01471-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Eine Küche für zwei, Frutillar"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Eine Küche für zwei, Frutillar
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01478.jpg"
+                        title="Sous la pluie, Llanquihue"
+                        data-rl_title="Sous la pluie, Llanquihue"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01478-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Sous la pluie, Llanquihue"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Sous la pluie, Llanquihue
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01480.jpg"
+                        title="Lago Llanquihue"
+                        data-rl_title="Lago Llanquihue"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01480-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Lago Llanquihue"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Lago Llanquihue
+                    </figcaption>
+                  </figure>
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01483.jpg"
+                        title="Puerto Varas"
+                        data-rl_title="Puerto Varas"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01483-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Puerto Varas"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Puerto Varas
+                    </figcaption>
+                  </figure>
+                  <br style="clear: both" />
+                  <figure class="gallery-item">
+                    <span class="gallery-icon">
+                      <a
+                        rel="attachment"
+                        href="../../../../wp-content/uploads/2014/02/DSC01482.jpg"
+                        title="Puerto Varas"
+                        data-rl_title="Puerto Varas"
+                        class="rl-gallery-link"
+                        data-rl_caption=""
+                        data-rel="lightbox-gallery-0"
+                        ><img
+                          width="150"
+                          height="150"
+                          src="../../../../wp-content/uploads/2014/02/DSC01482-150x150.jpg"
+                          class="attachment-thumbnail"
+                          alt="Puerto Varas"
+                      /></a>
+                    </span>
+                    <figcaption class="wp-caption-text gallery-caption">
+                      Puerto Varas
+                    </figcaption>
+                  </figure>
+                  <div class="clear"></div>
+                </div>
 
-<p>&nbsp;</p>
-<p><strong>Trace GPS:</strong></p>
-<div class="map" id="map"></div>
-							<div class="clear"></div>
-						</div><!-- .entry-content -->
-						<footer class="entry-utility">
-																<div class="social-bookmarks">
-			<p>Did you like this article? Share it with your friends!</p>
-							<div class="facebook-like">
-					<div id="fb-root"></div>
-					<script>
-						(function(d, s, id) {
-							var js, fjs = d.getElementsByTagName(s)[0];
-							if (d.getElementById(id)) return;
-							js = d.createElement(s); js.id = id;
-							js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-							fjs.parentNode.insertBefore(js, fjs);
-						}(document, 'script', 'facebook-jssdk'));
-					</script>
-					<div class="fb-like" data-href="https://hiiha.fr/2014/02/04/de-pucon-a-puerto-varas-en-velo/" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
-				</div><!-- .facebook-like -->
-										<div class="twitter-button">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://hiiha.fr/2014/02/04/de-pucon-a-puerto-varas-en-velo/">Tweet</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div><!-- .twitter-button -->
-										<div class="pinterest-button">
-					<a href="http://pinterest.com/pin/create/button/?url=https://hiiha.fr/2014/02/04/de-pucon-a-puerto-varas-en-velo/&media=https://hiiha.fr/wp-content/uploads/2014/02/DSC01457.jpg&description=%3Cp%3EDepuis+les+for%C3%AAts+d&rsquo;Araucaria+du+Chili,%C2%A0aux+collines+verdoyantes+qui+rappellent+la+photo+la+plus+c%C3%A9l%C3%A8bre+du+monde,+la+travers%C3%A9e+de+la+r%C3%A9gion+des+lacs+aux+Chili+a+%C3%A9t%C3%A9+un+enchantement.+Nous+en+avons+les+yeux+humides+(ainsi+que+la+veste,+le+pantalon,+les+gants,+le+duvet,+la+tente+&%238230;)+rien+&%238230;%3C/p%3E" class="pin-it-button" count-layout="horizontal"><img border="0" src="https://assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
-					<script>
-						(function(d, s, id) {
-							var js, pjs = d.getElementsByTagName(s)[0];
-							if (d.getElementById(id)) return;
-							js = d.createElement(s); js.id = id;
-							js.src = "//assets.pinterest.com/js/pinit.js";
-							pjs.parentNode.insertBefore(js, pjs);
-						}(document, 'script', 'pinterest-js'));
-					</script>
-				</div>
-						<div class="clear"></div>
-		</div><!-- .social-bookmarks -->
-																					</footer><!-- .entry-utility -->
-					</div><!-- .entry -->
-					
+                <p>&nbsp;</p>
+                <p><strong>Trace GPS:</strong></p>
+                <div class="map" id="map"></div>
+                <div class="clear"></div>
+              </div>
+              <!-- .entry-content -->
+              <footer class="entry-utility">
+                <div class="social-bookmarks">
+                  <p>Did you like this article? Share it with your friends!</p>
+                  <div class="facebook-like">
+                    <div id="fb-root"></div>
+                    <script>
+                      (function(d, s, id) {
+                        var js,
+                          fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                        fjs.parentNode.insertBefore(js, fjs);
+                      })(document, "script", "facebook-jssdk");
+                    </script>
+                    <div
+                      class="fb-like"
+                      data-href="https://hiiha.fr/2014/02/04/de-pucon-a-puerto-varas-en-velo/"
+                      data-send="false"
+                      data-layout="button_count"
+                      data-width="110"
+                      data-show-faces="false"
+                      data-font="arial"
+                    ></div>
+                  </div>
+                  <!-- .facebook-like -->
+                  <div class="twitter-button">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://hiiha.fr/2014/02/04/de-pucon-a-puerto-varas-en-velo/"
+                      >Tweet</a
+                    >
+                    <script>
+                      !(function(d, s, id) {
+                        var js,
+                          fjs = d.getElementsByTagName(s)[0];
+                        if (!d.getElementById(id)) {
+                          js = d.createElement(s);
+                          js.id = id;
+                          js.src = "//platform.twitter.com/widgets.js";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }
+                      })(document, "script", "twitter-wjs");
+                    </script>
+                  </div>
+                  <!-- .twitter-button -->
+                  <div class="pinterest-button">
+                    <a
+                      href="http://pinterest.com/pin/create/button/?url=https://hiiha.fr/2014/02/04/de-pucon-a-puerto-varas-en-velo/&media=https://hiiha.fr/wp-content/uploads/2014/02/DSC01457.jpg&description=%3Cp%3EDepuis+les+for%C3%AAts+d&rsquo;Araucaria+du+Chili,%C2%A0aux+collines+verdoyantes+qui+rappellent+la+photo+la+plus+c%C3%A9l%C3%A8bre+du+monde,+la+travers%C3%A9e+de+la+r%C3%A9gion+des+lacs+aux+Chili+a+%C3%A9t%C3%A9+un+enchantement.+Nous+en+avons+les+yeux+humides+(ainsi+que+la+veste,+le+pantalon,+les+gants,+le+duvet,+la+tente+&%238230;)+rien+&%238230;%3C/p%3E"
+                      class="pin-it-button"
+                      count-layout="horizontal"
+                      ><img border="0" src="https://assets.pinterest.com/images/PinExt.png" title="Pin It"
+                    /></a>
+                    <script>
+                      (function(d, s, id) {
+                        var js,
+                          pjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//assets.pinterest.com/js/pinit.js";
+                        pjs.parentNode.insertBefore(js, pjs);
+                      })(document, "script", "pinterest-js");
+                    </script>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <!-- .social-bookmarks -->
+              </footer>
+              <!-- .entry-utility -->
+            </div>
+            <!-- .entry -->
+          </article>
+          <!-- .post -->
+        </section>
+        <!-- #content -->
+        <div id="sidebar">
+          <div id="sidebar-top" class="widget-area" role="complementary">
+            <aside id="text-11" class="widget widget_text">
+              <h3 class="widget-title">Où sommes-nous ?</h3>
+              <div class="textwidget">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d22203.054944783646!2d6.8700947086540145!3d45.92366706370978!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1575223122786!5m2!1sen!2sde"
+                  width="250"
+                  height="250"
+                  frameborder="0"
+                  style="border:0;"
+                  allowfullscreen=""
+                ></iframe>
+              </div>
+            </aside>
+            <!-- .widget -->
+            <aside id="pis_posts_in_sidebar-2" class="widget posts-in-sidebar">
+              <h3 class="widget-title">Articles à la une</h3>
 
-						</article><!-- .post -->
-					</section><!-- #content -->
-					<div id="sidebar">
-		<div id="sidebar-top" class="widget-area" role="complementary">
-		<aside id="text-11" class="widget widget_text"><h3 class="widget-title">Où sommes-nous ?</h3>			<div class="textwidget"><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d22203.054944783646!2d6.8700947086540145!3d45.92366706370978!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1575223122786!5m2!1sen!2sde" width="250" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
-		</aside><!-- .widget --><aside id="pis_posts_in_sidebar-2" class="widget posts-in-sidebar"><h3 class="widget-title">Articles à la une</h3>
-		
-		
-		
-						<ul class="pis-ul" style="list-style-type:none; margin-left:0; padding-left:0;">
+              <ul class="pis-ul" style="list-style-type:none; margin-left:0; padding-left:0;">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/05/01/montage-du-surly-long-haul-trucker-lht/"
+                      title="Permalien vers Montage du Surly Long Haul Trucker"
+                      rel="bookmark"
+                    >
+                      Montage du Surly Long Haul Trucker
+                    </a>
+                  </p>
+                </li>
 
-			
-								
-				<li class="pis-li">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/05/27/on-icelandic-tv-news/"
+                      title="Permalien vers Islande &#8211; Laetitia on Icelandic TV"
+                      rel="bookmark"
+                    >
+                      Islande &#8211; Laetitia on Icelandic TV
+                    </a>
+                  </p>
+                </li>
 
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/05/01/montage-du-surly-long-haul-trucker-lht/" title="Permalien vers Montage du Surly Long Haul Trucker" rel="bookmark">
-																Montage du Surly Long Haul Trucker																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/06/05/photos-islande-a-velo-2/"
+                      title="Permalien vers Tour de l&rsquo;Islande à vélo"
+                      rel="bookmark"
+                    >
+                      Tour de l&rsquo;Islande à vélo
+                    </a>
+                  </p>
+                </li>
 
-			
-								
-				<li class="pis-li">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/06/05/recit-tour-de-lislande-a-velo/"
+                      title="Permalien vers Tour de l&rsquo;Islande à vélo"
+                      rel="bookmark"
+                    >
+                      Tour de l&rsquo;Islande à vélo
+                    </a>
+                  </p>
+                </li>
 
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/05/27/on-icelandic-tv-news/" title="Permalien vers Islande &#8211; Laetitia on Icelandic TV" rel="bookmark">
-																Islande &#8211; Laetitia on Icelandic TV																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a class="pis-title-link" href="../../../../2013/06/23/yes-we-canada/" title="Permalien vers Yes we Canada" rel="bookmark">
+                      Yes we Canada
+                    </a>
+                  </p>
+                </li>
 
-			
-								
-				<li class="pis-li">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/06/28/photos-canada-part-1/"
+                      title="Permalien vers A pied dans les Rocheuses Canadiennes (Banff)"
+                      rel="bookmark"
+                    >
+                      A pied dans les Rocheuses Canadiennes (Banff)
+                    </a>
+                  </p>
+                </li>
 
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/06/05/photos-islande-a-velo-2/" title="Permalien vers Tour de l&rsquo;Islande à vélo" rel="bookmark">
-																Tour de l&rsquo;Islande à vélo																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/07/09/berg-lake-trail/"
+                      title="Permalien vers De la forêt aux glaciers sur le &laquo;&nbsp;Berg Lake Trail&nbsp;&raquo;"
+                      rel="bookmark"
+                    >
+                      De la forêt aux glaciers sur le &laquo;&nbsp;Berg Lake Trail&nbsp;&raquo;
+                    </a>
+                  </p>
+                </li>
 
-			
-								
-				<li class="pis-li">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/07/09/images-randonnees-dans-les-rocheuses-2/"
+                      title="Permalien vers A pied dans les Rocheuses Canadiennes (Jasper)"
+                      rel="bookmark"
+                    >
+                      A pied dans les Rocheuses Canadiennes (Jasper)
+                    </a>
+                  </p>
+                </li>
 
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/06/05/recit-tour-de-lislande-a-velo/" title="Permalien vers Tour de l&rsquo;Islande à vélo" rel="bookmark">
-																Tour de l&rsquo;Islande à vélo																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/07/19/photos-canada-canoe-au-bowron-lake-provincial-park/"
+                      title="Permalien vers &laquo;&nbsp;Bowron Lakes&nbsp;&raquo; en images"
+                      rel="bookmark"
+                    >
+                      &laquo;&nbsp;Bowron Lakes&nbsp;&raquo; en images
+                    </a>
+                  </p>
+                </li>
 
-			
-								
-				<li class="pis-li">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/07/19/video-canada-canoe-sur-le-circuit-du-lac-bowron/"
+                      title="Permalien vers Vidéo: Canoë sur les Lacs Bowron"
+                      rel="bookmark"
+                    >
+                      Vidéo: Canoë sur les Lacs Bowron
+                    </a>
+                  </p>
+                </li>
 
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/06/23/yes-we-canada/" title="Permalien vers Yes we Canada" rel="bookmark">
-																Yes we Canada																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/07/30/photos-alaska-randonnee-sur-le-chilkoot-trail/"
+                      title="Permalien vers Alaska – Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;"
+                      rel="bookmark"
+                    >
+                      Alaska – Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;
+                    </a>
+                  </p>
+                </li>
 
-			
-								
-				<li class="pis-li">
+                <li class="pis-li">
+                  <p class="pis-title">
+                    <a
+                      class="pis-title-link"
+                      href="../../../../2013/08/01/randonnee-sur-le-chilkoot-trail/"
+                      title="Permalien vers Vidéo: Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;"
+                      rel="bookmark"
+                    >
+                      Vidéo: Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;
+                    </a>
+                  </p>
+                </li>
+              </ul>
+              <!-- / ul#pis-ul -->
 
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/06/28/photos-canada-part-1/" title="Permalien vers A pied dans les Rocheuses Canadiennes (Banff)" rel="bookmark">
-																A pied dans les Rocheuses Canadiennes (Banff)																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-								
-				<li class="pis-li">
-
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/07/09/berg-lake-trail/" title="Permalien vers De la forêt aux glaciers sur le &laquo;&nbsp;Berg Lake Trail&nbsp;&raquo;" rel="bookmark">
-																De la forêt aux glaciers sur le &laquo;&nbsp;Berg Lake Trail&nbsp;&raquo;																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-								
-				<li class="pis-li">
-
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/07/09/images-randonnees-dans-les-rocheuses-2/" title="Permalien vers A pied dans les Rocheuses Canadiennes (Jasper)" rel="bookmark">
-																A pied dans les Rocheuses Canadiennes (Jasper)																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-								
-				<li class="pis-li">
-
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/07/19/photos-canada-canoe-au-bowron-lake-provincial-park/" title="Permalien vers &laquo;&nbsp;Bowron Lakes&nbsp;&raquo; en images" rel="bookmark">
-																&laquo;&nbsp;Bowron Lakes&nbsp;&raquo; en images																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-								
-				<li class="pis-li">
-
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/07/19/video-canada-canoe-sur-le-circuit-du-lac-bowron/" title="Permalien vers Vidéo: Canoë sur les Lacs Bowron" rel="bookmark">
-																Vidéo: Canoë sur les Lacs Bowron																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-								
-				<li class="pis-li">
-
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/07/30/photos-alaska-randonnee-sur-le-chilkoot-trail/" title="Permalien vers Alaska – Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;" rel="bookmark">
-																Alaska – Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-								
-				<li class="pis-li">
-
-										
-																<p class="pis-title">
-																							<a class="pis-title-link" href="../../../../2013/08/01/randonnee-sur-le-chilkoot-trail/" title="Permalien vers Vidéo: Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;" rel="bookmark">
-																Vidéo: Randonnée sur le &laquo;&nbsp;Chilkoot Trail&nbsp;&raquo;																								</a>
-													</p>
-					
-										
-																
-						
-					
-											
-				
-				
-									
-	
-										
-										
-										
-				</li>
-
-			
-		</ul>
-		<!-- / ul#pis-ul -->
-
-				
-		
-		
-	<!-- Generated by Posts in Sidebar v1.22 -->
-</aside><!-- .widget -->		<div class="clear"></div>
-	</div><!-- #sidebar-top -->
-			</div><!-- #sidebar -->			</div><!-- #container -->
-		<div id="footer">
-						<div id="copyright">
-				<p class="copyright">© Hiiha - Tour du monde</p>
-								<div class="clear"></div>
-			</div><!-- #copyright -->
-		</div><!-- #footer -->
-	</div><!-- #wrapper -->
-</body>
+              <!-- Generated by Posts in Sidebar v1.22 -->
+            </aside>
+            <!-- .widget -->
+            <div class="clear"></div>
+          </div>
+          <!-- #sidebar-top -->
+        </div>
+        <!-- #sidebar -->
+      </div>
+      <!-- #container -->
+      <div id="footer">
+        <div id="copyright">
+          <p class="copyright">© Hiiha - Tour du monde</p>
+          <div class="clear"></div>
+        </div>
+        <!-- #copyright -->
+      </div>
+      <!-- #footer -->
+    </div>
+    <!-- #wrapper -->
+  </body>
 </html>
