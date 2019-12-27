@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "prettify": "prettier --print-width 160 --write \"./hiiha.fr/**/*.{html,js,css}\""
+  }
+}
