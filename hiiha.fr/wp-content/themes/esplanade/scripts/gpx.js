@@ -6,9 +6,12 @@ function displayGpxTrack(gpxUrl, mapId = "map") {
   new L.GPX(gpxUrl, {
     async: true,
     marker_options: {
-      startIconUrl: "http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-start.png",
-      endIconUrl: "http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-end.png",
-      shadowUrl: "http://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png"
+      startIconUrl: "https://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-start.png",
+      endIconUrl: "https://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-end.png",
+      shadowUrl: "https://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-shadow.png",
+      wptIconUrls: {
+        '': 'https://github.com/mpetazzoni/leaflet-gpx/raw/master/pin-icon-wpt.png'
+      }
     }
   })
     .on("loaded", function(e) {
